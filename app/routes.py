@@ -1,8 +1,8 @@
 import pickle
 import numpy as np
-from app import app
-from flask import render_template, request
+from flask import Flask, render_template, request
 
+app = Flask(__name__)
 model = pickle.load(open('app/model/model.pkl', 'rb'))
 
 @app.route('/')
