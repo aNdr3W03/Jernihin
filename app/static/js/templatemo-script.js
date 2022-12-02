@@ -253,7 +253,7 @@ $(document).ready(function () {
     adjustIntroImg();
 
     function adjustIntroImg() {
-        var img = 'img/';
+        var img = './static/img/';
 
         if(window.innerWidth > 650) {
             img += 'intro.jpg';
