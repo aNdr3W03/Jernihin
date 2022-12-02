@@ -1,8 +1,8 @@
-import numpy as np
-from flask import Flask, render_template, request
 import pickle
+import numpy as np
+from app import app
+from flask import render_template, request
 
-app = Flask(__name__)
 model = pickle.load(open('app/model/model.pkl', 'rb'))
 
 @app.route('/')
@@ -16,6 +16,3 @@ def predict():
     prediction = model.predict(final_features)
 
     return render_template('index.html', result=prediction[0])
-
-if __name__ == '__main__':
-    app.run(debug=True)

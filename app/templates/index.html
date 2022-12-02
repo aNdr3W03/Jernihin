@@ -14,8 +14,8 @@
 <body>
     <!-- Header -->
     <header class="tm-site-header">
-        <h1 class="tm-mt-0 tm-mb-15"><span class="tm-color-primary">JERNIH</span> <span class="tm-color-gray-2">in</span></h1>
-        <em class="tm-tagline tm-color-light-gray">Water Quality Prediction </em>
+        <h1 class="tm-mt-0 tm-mb-15"><span class="tm-color-primary">JERNIH</span><span class="tm-color-gray-2">in</span></h1>
+        <em class="tm-tagline tm-color-light-gray">Water Quality Prediction</em>
     </header>
 
     <!-- Video banner 400 px height -->
@@ -77,18 +77,15 @@
                                 Air yang aman dan tersedia sangat penting untuk kesehatan masyarakat, baik itu digunakan untuk minum, keperluan rumah tangga, produksi makanan atau tujuan rekreasi.
                             </p>
                             <p>
-                                Indeks kualitas air (WQI) merupakan alat penting untuk menentukan kualitas air sebagai indeks yang mencerminkan pengaruh gabungan dari berbagai parameter 
-                                kualitas air yang dipertimbangkan dan diambil untuk perhitungan indeks kualitas air.
+                                Indeks kualitas air (WQI/<i>Wataer Quality Index</i>) merupakan alat ukur yang penting untuk menentukan kualitas air sebagai indeks yang mencerminkan pengaruh gabungan dari berbagai parameter kualitas air yang dipertimbangkan dan diambil untuk perhitungan indeks kualitas air.
                             </p>
                             <p class="tm-mb-0">
-                                Jadi, kami mengambil beberapa inspirasi untuk menggunakan dataset
-                                Indeks kualitas air (WQI) untuk memahami jenis air minum yang aman dan menerapkan machine learning untuk membedakan antara air Minum dan Air Tidak Minum.
+                                Jadi, kami mengambil beberapa inspirasi untuk menggunakan dataset indeks kualitas air (WQI) untuk memahami jenis air minum yang aman dan menerapkan <i>machine learning</i> untuk membedakan antara air minum dan air yang tidak layak untuk diminum.
                             </p>
                         </div>
                         <div class="tm-col-6">
                             <p>
-                                 Jernih in app adalah aplikasi untuk memprediksi kejernihan air yang dapat memberikan hasil prediksi kualitas air, 
-                                apakah aman untuk dikonsumsi atau tidak layak untuk dikonsumsi. 
+                                Jernih in adalah aplikasi berbasis website untuk memprediksi tingkat kejernihan air yang dapat memberikan hasil prediksi kualitas air, apakah aman untuk dikonsumsi atau tidak layak untuk dikonsumsi.
                             </p>
                             <div class="tm-text-center">
                                 <a href="#" class="tm-btn tm-btn-primary mfp-prevent-close tm-btn-next">
@@ -296,6 +293,62 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="tm-container">
+        <form action="/predict" method="POST">
+            <label for="fecal">Fecal</label>
+            <input type="text" name="fecal" placeholder="Fecal" required>
+            <br>
+            <label for="oxygen">Oxygen</label>
+            <input type="text" name="oxygen" placeholder="Oxygen" required>
+            <br>
+            <label for="ph">pH</label>
+            <input type="text" name="ph" placeholder="pH" required>
+            <br>
+            <label for="tot_sediment">Total Sediment</label>
+            <input type="text" name="tot_sediment" placeholder="Total Sediment" required>
+            <br>
+            <label for="temp">Temperature</label>
+            <input type="text" name="temp" placeholder="Temperature" required>
+            <br>
+            <label for="nitrogen">Nitrogen</label>
+            <input type="text" name="nitrogen" placeholder="Nitrogen" required>
+            <br>
+            <label for="phosphorus">Phosphorus</label>
+            <input type="text" name="phosphorus" placeholder="Phosphorus" required>
+            <br>
+            <label for="turbidity">Turbidity</label>
+            <input type="text" name="turbidity" placeholder="Turbidity" required>
+            <br>
+            <button type="submit">Predict</button>
+        </form>
+        <br>
+    
+        {% if result == 5 %}
+        <p>Your water quality is Excellent</p>
+        <p>You can drink your water safely</p>
+        {% endif %}
+    
+        {% if result == 4 %}
+        <p>Your water quality is Good</p>
+        <p>You can drink your water safely</p>
+        {% endif %}
+    
+        {% if result == 3 %}
+        <p>Your water quality is Fair</p>
+        <p>You can drink your water, but it is recommended to boil it first</p>
+        {% endif %}
+    
+        {% if result == 2 %}
+        <p>Your water quality is Marginal</p>
+        <p>Your water sill needs to be purified and further testing</p>
+        {% endif %}
+    
+        {% if result == 1 %}
+        <p>Your water quality is Poor</p>
+        <p>You cannot drink your water</p>
+        {% endif %}
     </div>
 
     <footer class="tm-footer">
