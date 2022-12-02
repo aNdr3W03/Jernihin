@@ -108,7 +108,9 @@ a {
 
 .tm-nav-item {
     list-style: none;
-    margin: 22px;   
+    margin: 10px;
+    padding: 20px;
+    padding-left: 49px;   
 }
 
 .tm-nav-link {
