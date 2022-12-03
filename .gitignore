@@ -1,0 +1,10 @@
+__pypackages__/
+__pycache__/
+.pytest_cache/
+.cache
+.python-version
+.env
+.venv
+env/
+venv/
+ENV/
