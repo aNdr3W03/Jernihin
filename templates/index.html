@@ -65,7 +65,6 @@
         <!-- Intro -->
         <div id="intro" class="popup mfp-with-anim mfp-hide tm-bg-gray">
             <a href="#" class="tm-close-popup">
-                return home
                 <i class="fas fa-times"></i>
             </a>
             <div class="tm-row tm-intro-row">
@@ -102,7 +101,6 @@
         <!-- Predict -->
         <div id="about" class="popup mfp-with-anim mfp-hide tm-bg-gray">
             <a href="#" class="tm-close-popup">
-                return home
                 <i class="fas fa-times"></i>
             </a>
             <h2 class="tm-color-primary tm-about-col tm-mb-40 tm-page-title">prediction page</h2>
@@ -141,7 +139,6 @@
         <!-- About Us -->
         <div id="gallery" class="popup mfp-with-anim mfp-hide tm-bg-gray">
             <a href="#" class="tm-close-popup">
-                return home
                 <i class="fas fa-times"></i>
             </a>
             <div class="tm-row tm-gallery-row">
@@ -150,25 +147,25 @@
                         <figure class="effect-chico tm-gallery-item portrait">
                             <img src="/static/img/portrait-01.jpg" alt="Image"/>
                             <figcaption>
-                                <p>..nama..</p>
+                                <p>Gilang</p>
                             </figcaption>
                         </figure>
                         <figure class="effect-chico tm-gallery-item nature">
                             <img src="/static/img/nature-01.jpg" alt="Image"/>
                             <figcaption>
-                                <p>..nama..</p>
+                                <p>Ades</p>
                             </figcaption>
                         </figure>
                         <figure class="effect-chico tm-gallery-item animal">
                             <img src="/static/img/animal-01.jpg" alt="Image"/>
                             <figcaption>
-                                <p>..nama..</p>
+                                <p>Andrew</p>
                             </figcaption>
                         </figure>
                         <figure class="effect-chico tm-gallery-item building">
                             <img src="/static/img/building-01.jpg" alt="Image"/>
                             <figcaption>
-                                <p>..nama..</p>
+                                <p>Cheliza</p>
                             </figcaption>
                         </figure>
                     </div>
@@ -229,7 +226,6 @@
         <!-- Contact -->
         <div id="contact" class="popup mfp-with-anim mfp-hide tm-bg-gray">
             <a href="#" class="tm-close-popup">
-                return home
                 <i class="fas fa-times"></i>
             </a>
             <h2 class="tm-contact-col tm-color-primary tm-page-title tm-mb-40">Contact Us</h2>
@@ -284,8 +280,8 @@
                         </li>
                         <li>
                             <a href="https://jernihin.up.railway.app">
-                                <i class="fas fa-link tm-contact-link-icon"></i>
-                                URL: jernihin.up.railway.app
+                                <i class="fa fa-globe tm-contact-link-icon"></i>
+                                Web: jernihin.up.railway.app
                             </a>
                         </li>
                     </ul>
@@ -295,6 +291,20 @@
     </div>
 
     <div class="tm-container">
+        <form id="contact-form" action="" method="POST" class="tm-contact-form">
+            <div class="form-group">
+                <input type="text" name="name" class="form-control rounded-0" placeholder="Full Name" required/>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" class="form-control rounded-0" placeholder="Email" required/>
+            </div>
+            <div class="form-group">
+                <textarea rows="8" name="message" class="form-control rounded-0" placeholder="Message" required></textarea>
+            </div>
+            <div class="form-group tm-text-right">
+                <button type="submit" class="tm-btn tm-btn-primary">Send it now</button>
+            </div>
+        </form>
         <form action="/predict" method="POST">
             <label for="fecal">Fecal</label>
             <input type="text" name="fecal" placeholder="Fecal" required>

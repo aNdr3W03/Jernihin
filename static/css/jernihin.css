@@ -108,9 +108,7 @@ a {
 
 .tm-nav-item {
     list-style: none;
-    margin: 10px;
-    padding: 20px;
-    padding-left: 49px;   
+    margin: 22px 53px;
 }
 
 .tm-nav-link {
@@ -455,6 +453,7 @@ figure.effect-chico:hover p {
 #contact {
     padding-bottom: 65px;
 }
+
 .tm-contact-col {
     flex: 0 0 50%;
     padding-left: 40px;  
@@ -482,6 +481,10 @@ figure.effect-chico:hover p {
 
 .form-group {
     margin-bottom: 25px;
+}
+
+textarea {
+    resize: vertical;
 }
 
 select:not([multiple]) {
@@ -539,25 +542,25 @@ address {
 
 @media (max-width: 1264px) {
     .tm-main-nav ul { 
-        max-width: 976px;
+        max-width: 918px;
     }
 }
 
 @media (max-width: 1020px) {
     .tm-main-nav ul {
-        max-width: 732px;
+        max-width: 612px;
     }
 }
 
 @media (max-width: 776px) {
     .tm-main-nav ul {
-        max-width: 488px;        
+        max-width: 306px;        
     }
 }
 
 @media (max-width: 532px) {
     .tm-main-nav ul { 
-        max-width: 244px;
+        max-width: 306px;
     }
 }
 
