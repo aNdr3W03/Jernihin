@@ -1,9 +1,6 @@
 /*
-
 TemplateMo 554 Ocean Vibes
-
 https://templatemo.com/tm-554-ocean-vibes
-
 */
 
 html { overflow-x: hidden; }
@@ -20,12 +17,12 @@ h2, p {
     margin-top: 0;
 }
 
-a:hover, a.active { color: #309AFD; }
+a:hover, a.active { color: #3282FF; }
 
 .tm-btn {
     padding: 10px 40px;
     color: white;
-    background-color: #3299CD;
+    background-color: #3282FF;
     display: inline-block;
     border: none;
     cursor: pointer;
@@ -39,12 +36,13 @@ button.tm-btn {
 
 .tm-btn:hover {
     color: white;
-    background-color: #49b4e9;
+    background-color: #79AAFF;
 }
 
 h1 { font-size: 3rem; }
 em { display: block; }
 div { box-sizing: border-box;}
+.tm-mt-0 { margin-top: 0; }
 .tm-mt-35 { margin-top: 35px; }
 .tm-mb-0 { margin-bottom: 0; }
 .tm-mb-15 { margin-bottom: 15px; }
@@ -54,7 +52,7 @@ div { box-sizing: border-box;}
 .tm-mb-80 { margin-bottom: 80px; }
 .tm-text-center { text-align: center; }
 .tm-text-right { text-align: right; }
-.tm-color-primary { color: #309AFD; }
+.tm-color-primary { color: #3282FF; }
 .tm-color-gray { color: #666768; }
 .tm-color-gray-2 { color: #98999A; }
 .tm-color-light-gray { color: #9E9FA0; }
@@ -73,8 +71,6 @@ a {
     text-decoration: none; 
     transition: all 0.3s ease;
 }
-
-.tm-mt-0 { margin-top: 0; }
 
 .tm-site-header {
     padding: 60px 70px 30px;
@@ -125,12 +121,12 @@ a {
 
 .tm-nav-link:hover,
 .tm-nav-link.active {
-    color: #309AFD;
+    color: #3282FF;
 }
 
 .tm-nav-link i {
     margin-top: 30px;
-    color: #309AFD;
+    color: #3282FF;
 }
 
 .tm-main-nav ul {
@@ -266,7 +262,7 @@ button.mfp-arrow {
 
 a.tm-paging-link.active,
 a.tm-paging-link:hover {
-    background: #309AFD;
+    background: #3282FF;
     color: white;
 }
 
@@ -297,7 +293,7 @@ a.tm-paging-link:hover {
     max-width: 180px;
     max-height: 240px;
     width: 25%;
-    background: #3085a3;
+    background: #79AAFF;
     text-align: center;
     cursor: pointer;
 }
@@ -416,17 +412,6 @@ figure.effect-chico:hover p {
 	transform: scale(1);
 }
 
-/* Testimonials */
-.tm-testimonials-inner {
-    padding: 0 20px 30px;
-}
-
-.tm-testimonial-col {
-    flex: 0 0 33.3334%;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 /* About */
 .mapouter{
     position:relative;
@@ -485,17 +470,6 @@ figure.effect-chico:hover p {
 
 textarea {
     resize: vertical;
-}
-
-select:not([multiple]) {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-position: right 15px center;
-    background-repeat: no-repeat;
-    background-image: url(../img/select-arrow.png);
-    padding: 14px 20px;
-    padding-right: 20px;
-    color: #666;
 }
 
 .tm-contact-links li {
@@ -561,30 +535,6 @@ address {
 @media (max-width: 532px) {
     .tm-main-nav ul { 
         max-width: 306px;
-    }
-}
-
-@media (max-width: 992px) {
-    .tm-testimonial-row {
-        flex-wrap: wrap;
-    }
-    .tm-testimonial-col {
-        flex: 100%;
-        margin-bottom: 50px;
-    }    
-
-    .tm-testimonial-col:last-child {
-        margin-bottom: 0;
-    }
-
-    .tm-testimonial-col-2 {
-        flex: 50%;
-    }
-}
-
-@media (max-width: 635px) {
-    .tm-testimonial-col-2 {
-        flex: 100%;
     }
 }
 
