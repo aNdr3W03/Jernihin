@@ -31,32 +31,42 @@
     
     <br>
 
-    <form id="contact-form"action="/result" method="POST">
-        <label for="fecal" class="form-label">Fecal </label>
-        <input type="text" name="fecal" class="form-control" placeholder="Fecal" required>
-        <br>
-        <label for="oxygen" class="form-label">Oxygen</label>
-        <input type="text" name="oxygen" class="form-control" placeholder="Oxygen" required>
-        <br>
-        <label for="ph" class="form-label">pH</label>
-        <input type="text" name="ph" class="form-control" placeholder="pH" required>
-        <br>
-        <label for="tot_sediment" class="form-label">Total Sediment</label>
-        <input type="text" name="tot_sediment" class="form-control" placeholder="Total Sediment" required>
-        <br>
-        <label for="temp" class="form-label">Temperature</label>
-        <input type="text" name="temp" class="form-control" placeholder="Temperature" required>
-        <br>
-        <label for="nitrogen" class="form-label">Nitrogen</label>
-        <input type="text" name="nitrogen" class="form-control" placeholder="Nitrogen" required>
-        <br>
-        <label for="phosphorus" class="form-label">Phosphorus</label>
-        <input type="text" name="phosphorus" class="form-control" placeholder="Phosphorus" required>
-        <br>
-        <label for="turbidity" class="form-label">Turbidity</label>
-        <input type="text" name="turbidity" class="form-control" placeholder="Turbidity" required>
-        <br>
-        <button type="submit">Predict</button>
+    <form id="contact-form" action="/result" method="POST">
+        <div class="form-group">
+            <label for="fecal" class="form-label">Fecal</label>
+            <input type="text" name="fecal" class="form-control" placeholder="Fecal" required>
+        </div>
+        <div class="form-group">
+            <label for="oxygen" class="form-label">Oxygen</label>
+            <input type="text" name="oxygen" class="form-control" placeholder="Oxygen" required>
+        </div>
+        <div class="form-group">
+            <label for="ph" class="form-label">pH</label>
+            <input type="text" name="ph" class="form-control" placeholder="pH" required>
+        </div>
+        <div class="form-group">
+            <label for="tot_sediment" class="form-label">Total Sediment</label>
+            <input type="text" name="tot_sediment" class="form-control" placeholder="Total Sediment" required>
+        </div>
+        <div class="form-group">
+            <label for="temp" class="form-label">Temperature</label>
+            <input type="text" name="temp" class="form-control" placeholder="Temperature" required>
+        </div>
+        <div class="form-group">
+            <label for="nitrogen" class="form-label">Nitrogen</label>
+            <input type="text" name="nitrogen" class="form-control" placeholder="Nitrogen" required>
+        </div>
+        <div class="form-group">
+            <label for="phosphorus" class="form-label">Phosphorus</label>
+            <input type="text" name="phosphorus" class="form-control" placeholder="Phosphorus" required>
+        </div>
+        <div class="form-group">
+            <label for="turbidity" class="form-label">Turbidity</label>
+            <input type="text" name="turbidity" class="form-control" placeholder="Turbidity" required>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="tm-btn">Predict</button>
+        </div>
     </form>
 </div>
 {% endblock %}
