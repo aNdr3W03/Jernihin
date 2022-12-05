@@ -1,367 +1,282 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% extends 'layout.html' %}
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap">
-    <link rel="stylesheet" href="{{url_for('static', filename='fontawesome/css/all.min.css')}}">
-    <link rel="stylesheet" href="{{url_for('static', filename='css/magnific-popup.css')}}">
-    <link rel="stylesheet" href="{{url_for('static', filename='css/jernihin.css')}}">
+{% block title %}Jernihin{% endblock %}
 
-    <link rel="shortcut icon" href="{{url_for('static', filename='img/Jernihin.svg')}}" type="image/x-icon">
-    
-    <title>Jernihin</title>
-</head>
-<body>
-    <!-- Header -->
-    <header class="tm-site-header">
-        <h1 class="tm-mt-0 tm-mb-15"><span class="tm-color-primary">JERNIH</span><span class="tm-color-gray-2">in</span></h1>
-        <em class="tm-tagline tm-color-light-gray">Water Quality Prediction</em>
-    </header>
+{% block content %}
+<!-- Video banner 400 px height -->
+<div id="tm-video-container">
+    <video autoplay muted loop id="tm-video">
+        <source src="{{url_for('static', filename='video/ocean-sea-wave-video.mp4')}}" type="video/mp4">
+    </video>  
+    <i id="tm-video-control-button" class="fas fa-pause"></i>
+</div>
 
-    <!-- Video banner 400 px height -->
-    <div id="tm-video-container">
-        <video autoplay muted loop id="tm-video">
-            <source src="{{url_for('static', filename='video/ocean-sea-wave-video.mp4')}}" type="video/mp4">
-        </video>  
-        <i id="tm-video-control-button" class="fas fa-pause"></i>
+<!-- Popup navigation -->
+<div class="tm-container">
+    <nav class="tm-main-nav">
+        <ul id="inline-popups">
+            <!-- Popup intro -->
+            <li class="tm-nav-item">
+                <a href="#intro" data-effect="mfp-move-from-top" class="tm-nav-link">
+                    Introduction
+                    <i class="fa fa-3x fa-info"></i>
+                </a>
+            </li>
+            <!-- Popup predic -->
+            <li class="tm-nav-item">
+                <a href="#about" data-effect="mfp-move-from-top" class="tm-nav-link">
+                    Prediction
+                    <i class="fa fa-3x fa-tint"></i>
+                </a>
+            </li>
+            <!-- Popup about us -->
+            <li class="tm-nav-item">
+                <a href="#gallery" data-effect="mfp-move-from-top" class="tm-nav-link" id="tm-gallery-link">
+                    About Us
+                    <i class="fa fa-3x fa-user"></i>
+                </a>
+            </li>
+            <!-- Popup contact -->
+            <li class="tm-nav-item">
+                <a href="#contact" data-effect="mfp-move-from-top" class="tm-nav-link">
+                    Contact
+                    <i class="fa fa-3x fa-comments"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Intro -->
+    <div id="intro" class="popup mfp-with-anim mfp-hide tm-bg-gray">
+        <a href="#" class="tm-close-popup">
+            <i class="fas fa-times"></i>
+        </a>
+        <div class="tm-row tm-intro-row">
+            <img src="{{url_for('static', filename='img/intro.jpg')}}" alt="Intro" class="tm-intro-img">
+            <div class="tm-col tm-bg-white tm-intro-pad">
+                <h2 class="tm-color-primary tm-page-title">Apa itu Jernihin?</h2>
+                <div class="tm-row tm-content-row">
+                    <div class="tm-col-6 tm-intro-col-l">
+                        <p>
+                            Air yang aman dan tersedia sangat penting untuk kesehatan masyarakat, baik itu digunakan untuk minum, keperluan rumah tangga, produksi makanan atau tujuan rekreasi.
+                        </p>
+                        <p>
+                            Indeks kualitas air (WQI/<i>Water Quality Index</i>) merupakan alat ukur yang penting untuk menentukan kualitas air sebagai indeks yang mencerminkan pengaruh gabungan dari berbagai parameter kualitas air yang dipertimbangkan dan diambil untuk perhitungan indeks kualitas air.
+                        </p>
+                    </div>
+                    <div class="tm-col-6">
+                        <p>
+                            Jadi, kami mengambil beberapa inspirasi untuk menggunakan <i>dataset</i> indeks kualitas air (WQI) untuk memahami jenis air minum yang aman dengan menerapkan <i>machine learning</i> untuk membedakan antara air minum dan air yang tidak layak untuk diminum.
+                        </p>
+                        <p>
+                            Jernihin adalah aplikasi berbasis <i>website</i> untuk memprediksi tingkat kualitas air yang dapat memberikan hasil prediksi air tersebut apakah aman untuk dikonsumsi atau tidak layak untuk dikonsumsi.
+                        </p>
+                        <div class="tm-text-center">
+                            <a href="#" class="tm-btn mfp-prevent-close tm-btn-next">
+                                Coba Prediksi
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
     </div>
 
-    <!-- Popup navigation -->
-    <div class="tm-container">
-        <nav class="tm-main-nav">
-            <ul id="inline-popups">
-                <!-- Popup intro -->
-                <li class="tm-nav-item">
-                    <a href="#intro" data-effect="mfp-move-from-top" class="tm-nav-link">
-                        Introduction
-                        <i class="fa fa-3x fa-info"></i>
-                    </a>
-                </li>
-                <!-- Popup predic -->
-                <li class="tm-nav-item">
-                    <a href="#about" data-effect="mfp-move-from-top" class="tm-nav-link">
-                        Prediction
-                        <i class="fa fa-3x fa-tint"></i>
-                    </a>
-                </li>
-                <!-- Popup about us -->
-                <li class="tm-nav-item">
-                    <a href="#gallery" data-effect="mfp-move-from-top" class="tm-nav-link" id="tm-gallery-link">
-                        About Us
-                        <i class="fa fa-3x fa-user"></i>
-                    </a>
-                </li>
-                <!-- Popup contact -->
-                <li class="tm-nav-item">
-                    <a href="#contact" data-effect="mfp-move-from-top" class="tm-nav-link">
-                        Contact
-                        <i class="fa fa-3x fa-comments"></i>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-
-        <!-- Intro -->
-        <div id="intro" class="popup mfp-with-anim mfp-hide tm-bg-gray">
-            <a href="#" class="tm-close-popup">
-                <i class="fas fa-times"></i>
-            </a>
-            <div class="tm-row tm-intro-row">
-                <img src="{{url_for('static', filename='img/intro.jpg')}}" alt="Intro" class="tm-intro-img">
-                <div class="tm-col tm-bg-white tm-intro-pad">
-                    <h2 class="tm-color-primary tm-page-title">Apa itu Jernihin?</h2>
-                    <div class="tm-row tm-content-row">
-                        <div class="tm-col-6 tm-intro-col-l">
-                            <p>
-                                Air yang aman dan tersedia sangat penting untuk kesehatan masyarakat, baik itu digunakan untuk minum, keperluan rumah tangga, produksi makanan atau tujuan rekreasi.
-                            </p>
-                            <p>
-                                Indeks kualitas air (WQI/<i>Water Quality Index</i>) merupakan alat ukur yang penting untuk menentukan kualitas air sebagai indeks yang mencerminkan pengaruh gabungan dari berbagai parameter kualitas air yang dipertimbangkan dan diambil untuk perhitungan indeks kualitas air.
-                            </p>
-                        </div>
-                        <div class="tm-col-6">
-                            <p>
-                                Jadi, kami mengambil beberapa inspirasi untuk menggunakan <i>dataset</i> indeks kualitas air (WQI) untuk memahami jenis air minum yang aman dengan menerapkan <i>machine learning</i> untuk membedakan antara air minum dan air yang tidak layak untuk diminum.
-                            </p>
-                            <p>
-                                Jernihin adalah aplikasi berbasis <i>website</i> untuk memprediksi tingkat kualitas air yang dapat memberikan hasil prediksi air tersebut apakah aman untuk dikonsumsi atau tidak layak untuk dikonsumsi.
-                            </p>
-                            <div class="tm-text-center">
-                                <a href="#" class="tm-btn mfp-prevent-close tm-btn-next">
-                                    Coba Prediksi
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> 
-        </div>
-
-        <!-- Predict -->
-        <div id="about" class="popup mfp-with-anim mfp-hide tm-bg-gray">
-            <a href="#" class="tm-close-popup">
-                <i class="fas fa-times"></i>
-            </a>
-            <h2 class="tm-color-primary tm-about-col tm-mb-40 tm-page-title">Prediksi Kualitas Air</h2>
-            <div class="tm-row tm-about-row">
-                <div class="tm-col tm-about-col tm-about-left">                    
-                    <img src="{{url_for('static', filename='img/about.jpg')}}" alt="Prediction" class="tm-mb-30">
-                    <p class="tm-mb-40">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    </p>
-                    <p class="tm-mb-40">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    </p>
-                </div>
-                <div class="tm-col tm-about-col">
-                    <p class="tm-mb-40">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    </p>
-                    <p class="tm-mb-40">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    </p>
-                    <p class="tm-mb-40">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    </p>
-                    <a href="#" class="tm-btn mfp-prevent-close tm-btn-next">
-                        Prediksi Sekarang!
-                    </a>
-                </div>
+    <!-- Predict -->
+    <div id="about" class="popup mfp-with-anim mfp-hide tm-bg-gray">
+        <a href="#" class="tm-close-popup">
+            <i class="fas fa-times"></i>
+        </a>
+        <h2 class="tm-color-primary tm-about-col tm-mb-40 tm-page-title">Prediksi Kualitas Air</h2>
+        <div class="tm-row tm-about-row">
+            <div class="tm-col tm-about-col tm-about-left">
+                <img src="{{url_for('static', filename='img/about.jpg')}}" alt="Prediction" class="tm-mb-30">
+                <p class="tm-mb-40">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+                <p class="tm-mb-40">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+            </div>
+            <div class="tm-col tm-about-col">
+                <p class="tm-mb-40">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+                <p class="tm-mb-40">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+                <p class="tm-mb-40">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+                <a href="/predict" class="tm-btn mfp-prevent-close">
+                    Prediksi Sekarang!
+                </a>
             </div>
         </div>
+    </div>
 
-        <!-- About Us -->
-        <div id="gallery" class="popup mfp-with-anim mfp-hide tm-bg-gray">
-            <a href="#" class="tm-close-popup">
-                <i class="fas fa-times"></i>
-            </a>
-            <div class="tm-row tm-gallery-row">
-                <div class="tm-gallery">
-                    <div class="tm-gallery-container">
-                        <figure class="effect-chico tm-gallery-item gilang">
-                            <a href="https://www.linkedin.com/in/agilangaleyustas" target="_blank">
-                                <img src="{{url_for('static', filename='img/team_gilang.jpg')}}" alt="Gilang"/>
-                                <figcaption>
-                                    <p>Gilang</p>
-                                </figcaption>
-                            </a>
-                        </figure>
-                        <figure class="effect-chico tm-gallery-item ades">
-                            <a href="https://www.linkedin.com/in/ades-tikaningsih-25a571244" target="_blank">
-                                <img src="{{url_for('static', filename='img/team_ades.jpg')}}" alt="Ades"/>
-                                <figcaption>
-                                    <p>Ades</p>
-                                </figcaption>
-                            </a>
-                        </figure>
-                        <figure class="effect-chico tm-gallery-item andrew">
-                            <a href="https://www.linkedin.com/in/andrewbjamesie" target="_blank">
-                                <img src="{{url_for('static', filename='img/team_andrew.jpg')}}" alt="Andrew"/>
-                                <figcaption>
-                                    <p>Andrew</p>
-                                </figcaption>
-                            </a>
-                        </figure>
-                        <figure class="effect-chico tm-gallery-item cheliza">
-                            <a href="https://www.linkedin.com/in/chelizasriayusimarsoit" target="_blank">
-                                <img src="{{url_for('static', filename='img/team_cheliza.jpg')}}" alt="Cheliza"/>
-                                <figcaption>
-                                    <p>Cheliza</p>
-                                </figcaption>
-                            </a>
-                        </figure>
-                    </div>
-                </div>
-
-                <!-- navigation and description -->
-                <div class="tm-col tm-gallery-right">
-                    <h2 class="tm-color-primary tm-mt-15 tm-page-title">Development Team</h2>
-                    <div class="tm-gallery-right-inner">
-                        <ul class="tm-gallery-links">
-                            <li>
-                                <a href="#" class="active tm-gallery-link" data-filter="*">
-                                    <i class="fas fa-layer-group tm-gallery-link-icon"></i>
-                                    All Members
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="tm-gallery-link" data-filter="gilang">
-                                    <i class="fas fa-portrait tm-gallery-link-icon"></i>
-                                    A. Gilang Aleyusta Savada
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="tm-gallery-link" data-filter="ades">
-                                    <i class="fas fa-portrait tm-gallery-link-icon"></i>
-                                    Ades Tikaningsih
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="tm-gallery-link" data-filter="andrew">
-                                    <i class="fas fa-portrait tm-gallery-link-icon"></i>
-                                    Andrew Benedictus Jamesie
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="tm-gallery-link" data-filter="cheliza">
-                                    <i class="fas fa-portrait tm-gallery-link-icon"></i>
-                                    Cheliza Sriayu Simarsoit
-                                </a>
-                            </li>
-                        </ul>
-                        <p>
-                            Kami tim Jernihin, mahasiswa semester 5 yang berasal dari Teknik Informatika Universitas Lampung, Informatika Universitas AMIKOM Purwokerto, dan Ilmu Komputer Universitas Sumatera Utara.
-                        </p>
-                        <p>
-                            Kami merupakan Capstone Team C22-078 SIB Dicoding Cycle 3 yang berfokus pada Machine Learning dan Front-End Web Developer.
-                        </p>
-                    </div>
-                    <a href="#" class="tm-btn mfp-prevent-close tm-btn-next">
-                        Contact Us
-                    </a>
+    <!-- About Us -->
+    <div id="gallery" class="popup mfp-with-anim mfp-hide tm-bg-gray">
+        <a href="#" class="tm-close-popup">
+            <i class="fas fa-times"></i>
+        </a>
+        <div class="tm-row tm-gallery-row">
+            <div class="tm-gallery">
+                <div class="tm-gallery-container">
+                    <figure class="effect-chico tm-gallery-item gilang">
+                        <a href="https://www.linkedin.com/in/agilangaleyustas" target="_blank">
+                            <img src="{{url_for('static', filename='img/team_gilang.jpg')}}" alt="Gilang"/>
+                            <figcaption>
+                                <p>Gilang</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                    <figure class="effect-chico tm-gallery-item ades">
+                        <a href="https://www.linkedin.com/in/ades-tikaningsih-25a571244" target="_blank">
+                            <img src="{{url_for('static', filename='img/team_ades.jpg')}}" alt="Ades"/>
+                            <figcaption>
+                                <p>Ades</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                    <figure class="effect-chico tm-gallery-item andrew">
+                        <a href="https://www.linkedin.com/in/andrewbjamesie" target="_blank">
+                            <img src="{{url_for('static', filename='img/team_andrew.jpg')}}" alt="Andrew"/>
+                            <figcaption>
+                                <p>Andrew</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                    <figure class="effect-chico tm-gallery-item cheliza">
+                        <a href="https://www.linkedin.com/in/chelizasriayusimarsoit" target="_blank">
+                            <img src="{{url_for('static', filename='img/team_cheliza.jpg')}}" alt="Cheliza"/>
+                            <figcaption>
+                                <p>Cheliza</p>
+                            </figcaption>
+                        </a>
+                    </figure>
                 </div>
             </div>
-        </div>
 
-        <!-- Contact -->
-        <div id="contact" class="popup mfp-with-anim mfp-hide tm-bg-gray">
-            <a href="#" class="tm-close-popup">
-                <i class="fas fa-times"></i>
-            </a>
-            <h2 class="tm-contact-col tm-color-primary tm-page-title tm-mb-40">Contact Us</h2>
-            <div class="tm-row tm-contact-row">
-                <div class="tm-col tm-contact-col">
-                    <form id="contact-form" action="" method="POST" class="tm-contact-form">
-                        <div class="form-group">
-                            <input type="text" name="name" class="form-control rounded-0" placeholder="Full Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" name="email" class="form-control rounded-0" placeholder="Email" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea rows="8" name="message" class="form-control rounded-0" placeholder="Message" required></textarea>
-                        </div>
-                        <div class="form-group tm-text-right">
-                            <button type="submit" class="tm-btn">Send it now</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="tm-col tm-contact-col tm-contact-col-r">
-
-                    <!-- Map -->
-                    <div class="mapouter tm-mb-40">
-                        <div class="gmap_canvas">
-                            <iframe width="100%" height="520" id="gmap_canvas"
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2098.243952082923!2d107.63245264839983!3d-6.895763240062077!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb8bb411d2516aad6!2sDicoding%20Academy!5e0!3m2!1sid!2sid!4v1670045754042!5m2!1sid!2sid"
-                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                            </iframe>
-                        </div>
-                    </div>
-
-                    <!-- Address -->
-                    <address class="tm-mb-40">
-                        Jalan Batik Kumeli No.50, Kel. Sukaluyu, Kec. Cibeunying Kaler<br>
-                        Kota Bandung, Jawa Barat, Indonesia, 40123
-                    </address>
-
-                    <!-- Links -->
-                    <ul class="tm-contact-links">
+            <!-- navigation and description -->
+            <div class="tm-col tm-gallery-right">
+                <h2 class="tm-color-primary tm-mt-15 tm-page-title">Development Team</h2>
+                <div class="tm-gallery-right-inner">
+                    <ul class="tm-gallery-links">
                         <li>
-                            <a href="tel:6282127277101">
-                                <i class="fas fa-phone tm-contact-link-icon"></i>
-                                Tel: 62 821-2727-7101
+                            <a href="#" class="active tm-gallery-link" data-filter="*">
+                                <i class="fas fa-layer-group tm-gallery-link-icon"></i>
+                                All Members
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:c22-078@dicoding.org">
-                                <i class="fas fa-at tm-contact-link-icon"></i>
-                                Email: c22-078@dicoding.org
+                            <a href="#" class="tm-gallery-link" data-filter="gilang">
+                                <i class="fas fa-portrait tm-gallery-link-icon"></i>
+                                A. Gilang Aleyusta Savada
                             </a>
                         </li>
                         <li>
-                            <a href="https://jernihin.up.railway.app">
-                                <i class="fa fa-globe tm-contact-link-icon"></i>
-                                Web: jernihin.up.railway.app
+                            <a href="#" class="tm-gallery-link" data-filter="ades">
+                                <i class="fas fa-portrait tm-gallery-link-icon"></i>
+                                Ades Tikaningsih
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="tm-gallery-link" data-filter="andrew">
+                                <i class="fas fa-portrait tm-gallery-link-icon"></i>
+                                Andrew Benedictus Jamesie
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="tm-gallery-link" data-filter="cheliza">
+                                <i class="fas fa-portrait tm-gallery-link-icon"></i>
+                                Cheliza Sriayu Simarsoit
                             </a>
                         </li>
                     </ul>
+                    <p>
+                        Kami tim Jernihin, mahasiswa semester 5 yang berasal dari Teknik Informatika Universitas Lampung, Informatika Universitas AMIKOM Purwokerto, dan Ilmu Komputer Universitas Sumatera Utara.
+                    </p>
+                    <p>
+                        Kami merupakan Capstone Team C22-078 SIB Dicoding Cycle 3 yang berfokus pada Machine Learning dan Front-End Web Developer.
+                    </p>
                 </div>
+                <a href="#" class="tm-btn mfp-prevent-close tm-btn-next">
+                    Contact Us
+                </a>
             </div>
         </div>
     </div>
 
-    <div class="tm-container">
-        <form id="contact-form"action="/predict" method="POST">
-                <label for="fecal" class="form-label">Fecal </label>
-                <input type="text" name="fecal" class="form-control" placeholder="Fecal" required>
-                <br>
-                <label for="oxygen" class="form-label">Oxygen</label>
-                <input type="text" name="oxygen" class="form-control" placeholder="Oxygen" required>
-                <br>
-                <label for="ph" class="form-label">pH</label>
-                <input type="text" name="ph" class="form-control" placeholder="pH" required>
-                <br>
-                <label for="tot_sediment" class="form-label">Total Sediment</label>
-                <input type="text" name="tot_sediment" class="form-control" placeholder="Total Sediment" required>
-                <br>
-                <label for="temp" class="form-label">Temperature</label>
-                <input type="text" name="temp" class="form-control" placeholder="Temperature" required>
-                <br>
-                <label for="nitrogen" class="form-label">Nitrogen</label>
-                <input type="text" name="nitrogen" class="form-control" placeholder="Nitrogen" required>
-                <br>
-                <label for="phosphorus" class="form-label">Phosphorus</label>
-                <input type="text" name="phosphorus" class="form-control" placeholder="Phosphorus" required>
-                <br>
-                <label for="turbidity" class="form-label">Turbidity</label>
-                <input type="text" name="turbidity" class="form-control" placeholder="Turbidity" required>
-                <br>
-                <button type="submit">Predict</button>
-            </form>
-        <br>
-    
-        {% if result == 5 %}
-        <p>Your water quality is Excellent</p>
-        <p>You can drink your water safely</p>
-        {% endif %}
-    
-        {% if result == 4 %}
-        <p>Your water quality is Good</p>
-        <p>You can drink your water safely</p>
-        {% endif %}
-    
-        {% if result == 3 %}
-        <p>Your water quality is Fair</p>
-        <p>You can drink your water, but it is recommended to boil it first</p>
-        {% endif %}
-    
-        {% if result == 2 %}
-        <p>Your water quality is Marginal</p>
-        <p>Your water sill needs to be purified and further testing</p>
-        {% endif %}
-    
-        {% if result == 1 %}
-        <p>Your water quality is Poor</p>
-        <p>You cannot drink your water</p>
-        {% endif %}
+    <!-- Contact -->
+    <div id="contact" class="popup mfp-with-anim mfp-hide tm-bg-gray">
+        <a href="#" class="tm-close-popup">
+            <i class="fas fa-times"></i>
+        </a>
+        <h2 class="tm-contact-col tm-color-primary tm-page-title tm-mb-40">Contact Us</h2>
+        <div class="tm-row tm-contact-row">
+            <div class="tm-col tm-contact-col">
+                <form id="contact-form" action="" method="POST" class="tm-contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control rounded-0" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control rounded-0" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="8" name="message" class="form-control rounded-0" placeholder="Message" required></textarea>
+                    </div>
+                    <div class="form-group tm-text-right">
+                        <button type="submit" class="tm-btn">Send it now</button>
+                    </div>
+                </form>
+            </div>
+            <div class="tm-col tm-contact-col tm-contact-col-r">
+
+                <!-- Map -->
+                <div class="mapouter tm-mb-40">
+                    <div class="gmap_canvas">
+                        <iframe width="100%" height="520" id="gmap_canvas"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2098.243952082923!2d107.63245264839983!3d-6.895763240062077!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb8bb411d2516aad6!2sDicoding%20Academy!5e0!3m2!1sid!2sid!4v1670045754042!5m2!1sid!2sid"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Address -->
+                <address class="tm-mb-40">
+                    Jalan Batik Kumeli No.50, Kel. Sukaluyu, Kec. Cibeunying Kaler<br>
+                    Kota Bandung, Jawa Barat, Indonesia, 40123
+                </address>
+
+                <!-- Links -->
+                <ul class="tm-contact-links">
+                    <li>
+                        <a href="tel:6282127277101">
+                            <i class="fas fa-phone tm-contact-link-icon"></i>
+                            Tel: 62 821-2727-7101
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:c22-078@dicoding.org">
+                            <i class="fas fa-at tm-contact-link-icon"></i>
+                            Email: c22-078@dicoding.org
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://jernihin.up.railway.app">
+                            <i class="fa fa-globe tm-contact-link-icon"></i>
+                            Web: jernihin.up.railway.app
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
-
-    <footer class="tm-footer">
-        <span>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Jernihin</span>
-        <span>C22-078 SIB Dicoding 3 Capstone Team</span>
-    </footer>
-
-    <script src="{{url_for('static', filename='js/jquery-3.4.1.min.js')}}"></script>
-    <script src="{{url_for('static', filename='js/imagesloaded.pkgd.min.js')}}"></script>
-    <script src="{{url_for('static', filename='js/isotope.pkgd.min.js')}}"></script>
-    <script src="{{url_for('static', filename='js/jquery.magnific-popup.min.js')}}"></script>
-    <script src="{{url_for('static', filename='js/templatemo-script.js')}}"></script>
-</body>
-</html>
+</div>
+{% endblock %}
