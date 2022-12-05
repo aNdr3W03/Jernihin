@@ -3,7 +3,7 @@
 {% block title %}Jernihin{% endblock %}
 
 {% block content %}
-<!-- Video banner 400 px height -->
+<!-- Video Banner -->
 <div id="tm-video-container">
     <video autoplay muted loop id="tm-video">
         <source src="{{url_for('static', filename='video/ocean-sea-wave-video.mp4')}}" type="video/mp4">
@@ -11,32 +11,32 @@
     <i id="tm-video-control-button" class="fas fa-pause"></i>
 </div>
 
-<!-- Popup navigation -->
+<!-- Popup Navigation -->
 <div class="tm-container">
     <nav class="tm-main-nav">
         <ul id="inline-popups">
-            <!-- Popup intro -->
+            <!-- Popup Intro -->
             <li class="tm-nav-item">
                 <a href="#intro" data-effect="mfp-move-from-top" class="tm-nav-link">
                     Introduction
                     <i class="fa fa-3x fa-info"></i>
                 </a>
             </li>
-            <!-- Popup predic -->
+            <!-- Popup Predict -->
             <li class="tm-nav-item">
                 <a href="#about" data-effect="mfp-move-from-top" class="tm-nav-link">
                     Prediction
                     <i class="fa fa-3x fa-tint"></i>
                 </a>
             </li>
-            <!-- Popup about us -->
+            <!-- Popup About us -->
             <li class="tm-nav-item">
                 <a href="#gallery" data-effect="mfp-move-from-top" class="tm-nav-link" id="tm-gallery-link">
                     About Us
                     <i class="fa fa-3x fa-user"></i>
                 </a>
             </li>
-            <!-- Popup contact -->
+            <!-- Popup Contact -->
             <li class="tm-nav-item">
                 <a href="#contact" data-effect="mfp-move-from-top" class="tm-nav-link">
                     Contact
