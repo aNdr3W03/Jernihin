@@ -23,4 +23,4 @@ def result():
     return render_template('predict.html', result=prediction[0])
 
 if __name__ == '__main__':
-    app.run(debug=True, port=os.getenv("PORT", default=8080))
+    app.run(debug=True, port=os.getenv("PORT", default=5000))
