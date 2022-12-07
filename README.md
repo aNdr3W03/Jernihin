@@ -144,9 +144,9 @@ Agar dapat menjalankan aplikasi website ini pada *virtual environment* lokal, si
 
 ### 6. Developers
 
-**C22-078 Capstone Team**  
-SIB Dicoding Cycle 3  
 Merdeka Belajar Kampus Merdeka 2022  
+SIB Dicoding Cycle 3  
+**C22-078 Capstone Team**  
 
 - **M319X0851** - Andrew Benedictus Jamesie
 - **M319Y0854** - Cheliza Sriayu Simarsoit
