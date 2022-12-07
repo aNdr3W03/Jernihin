@@ -33,7 +33,33 @@ Berdasarkan latar belakang yang telah dipaparkan di atas, maka didapatkan tujuan
 
 ### 3. Instalasi dan Deployment
 
+Agar dapat menjalankan aplikasi website ini pada *virtual environment* lokal, silakan ikuti langkah-langkah berikut ini:
 
+1. Clone Repository ini
+   ```bash
+   git clone https://github.com/aNdr3W03/Jernihin.git
+   ```
+
+2. Install Python Virtual Environment
+   ```bash
+   virtualenv venv
+   ```
+
+3. Install semua *requirements* yang dibutuhkan
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Jalankan aplikasi web dengan Flask
+   ```bash
+   flask run
+   ```
+   atau
+   ```bash
+   python app.py
+   ```
+
+5. Hentikan program aplikasi atau *server* dengan cara `ctrl + c`
 
 ### 4. Cara Kerja
 
