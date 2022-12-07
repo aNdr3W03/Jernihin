@@ -40,7 +40,8 @@ div { box-sizing: border-box;}
 .tm-mb-0 { margin-bottom: 0; }
 .tm-mb-15 { margin-bottom: 15px; }
 .tm-mb-30 { margin-bottom: 30px; }
-.tm-mb-40 { margin-bottom: 40px; }
+.tm-mb-40 { margin-bottom: 40px; font-family: Arial, Helvetica, sans-serif; text-align: justify;font-size: medium;}
+.tm-mb-60 { margin-bottom: 50px; font-weight: bold;font-size: 20px; text-align: center;}
 .tm-mb-50 { margin-bottom: 50px; }
 .tm-mb-80 { margin-bottom: 80px; }
 .tm-text-center { text-align: center; }
