@@ -69,6 +69,10 @@ Agar dapat menjalankan aplikasi website ini pada *virtual environment* lokal, si
 
 - Dataset
   
+  <a href="https://data.amerigeoss.org" title="AmeriGEOSS Community Platform DataHub" target="_blank">
+    <img src="https://user-images.githubusercontent.com/77439245/206162481-5b17dfc2-fc1e-4f0a-a183-8935999becbc.png" alt="AmeriGEOSS Community Platform DataHub" style="width: 250px">
+  </a>
+  
   AmeriGEOSS Community Platform DataHub  
   [WQI Parameter Scores 1994-2013 Dataset](https://data.amerigeoss.org/dataset/wqi-parameter-scores-1994-2013-b0941 'Water Quality Index Parameter Scores 1994-2013 Dataset')
   
