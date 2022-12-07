@@ -138,9 +138,9 @@ Agar dapat menjalankan aplikasi website ini pada *virtual environment* lokal, si
   
 - Academic Papers
   
-  [1] H. Said, N. H. Matondang dan H. N. Irmanda, "Sistem Prediksi Kualitas Air Yang Dapat Dikonsumsi Dengan Menerapkan Algoritma K-Nearest Neighbor," *Seminar Nasional Mahasiswa Ilmu Komputer dan Aplikasinya (SENAMIKA)*, vol. 3, no. 1, pp. 158-168, Apr. 2022. Diakses: 10 Nov. 2022. [Online]. Tersedia pada: <a href="https://conference.upnvj.ac.id/index.php/senamika/article/view/2017" target=_blank>https://conference.upnvj.ac.id/index.php/senamika/article/view/2017</a>
+  [1] H. Said, N. H. Matondang dan H. N. Irmanda, "Sistem Prediksi Kualitas Air Yang Dapat Dikonsumsi Dengan Menerapkan Algoritma K-Nearest Neighbor," *Seminar Nasional Mahasiswa Ilmu Komputer dan Aplikasinya (SENAMIKA)*, vol. 3, no. 1, pp. 158-168, Apr. 2022. Diakses: 12 Okt. 2022. [Online]. Tersedia pada: <a href="https://conference.upnvj.ac.id/index.php/senamika/article/view/2017" target=_blank>https://conference.upnvj.ac.id/index.php/senamika/article/view/2017</a>
   
-  [2] M. H. D. Barang dan S. K. Saptomo, "Analisis Kualitas Air pada Jalur Distribusi Air Bersih di Gedung Baru Fakultas Ekonomi dan Manajemen Institut Pertanian Bogor," *Jurnal Teknik Sipil dan Lingkungan (J-SIL)*, vol. 4, no. 1, pp. 13-24, Apr. 2019. Diakses: 10 Nov. 2022. doi: 10.29244/jsil.4.1.13-24. [Online]. Tersedia pada: <a href="https://journal.ipb.ac.id/index.php/jsil/article/view/23735" target=_blank>https://journal.ipb.ac.id/index.php/jsil/article/view/23735</a>
+  [2] M. H. D. Barang dan S. K. Saptomo, "Analisis Kualitas Air pada Jalur Distribusi Air Bersih di Gedung Baru Fakultas Ekonomi dan Manajemen Institut Pertanian Bogor," *Jurnal Teknik Sipil dan Lingkungan (J-SIL)*, vol. 4, no. 1, pp. 13-24, Apr. 2019. Diakses: 12 Okt. 2022. doi: 10.29244/jsil.4.1.13-24. [Online]. Tersedia pada: <a href="https://journal.ipb.ac.id/index.php/jsil/article/view/23735" target=_blank>https://journal.ipb.ac.id/index.php/jsil/article/view/23735</a>
 
 ### 6. Developers
 
