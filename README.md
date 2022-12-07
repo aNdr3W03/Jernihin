@@ -75,62 +75,62 @@ Agar dapat menjalankan aplikasi website ini pada *virtual environment* lokal, si
 - Language
   
   <a href="https://www.w3schools.com/html" title="HTML5" target=_blank>
-    HTML5
-  </a><br>
+    <img src="https://img.shields.io/badge/html5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white" />
+  </a> &nbsp;
   <a href="https://www.w3schools.com/css" title="CSS3" target=_blank>
-    CSS3
-  </a><br>
+    <img src="https://img.shields.io/badge/css3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white" />
+  </a> &nbsp;
   <a href="https://www.javascript.com" title="JavaScript" target=_blank>
-    JavaScript
-  </a><br>
+    <img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black" />
+  </a> &nbsp;
   <a href="https://www.python.org" title="Python" target=_blank>
-    Python
-  </a>
+    <img src="https://img.shields.io/badge/python-3670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54" />
+  </a> &nbsp;
   
 - Framework
   
   <a href="https://getbootstrap.com" title="Bootstrap" target=_blank>
-    Bootstrap
-  </a><br>
+    <img src="https://img.shields.io/badge/bootstrap-%237952B3.svg?&style=for-the-badge&logo=bootstrap&logoColor=white" />
+  </a> &nbsp;
   <a href="https://flask.palletsprojects.com" title="Flask" target=_blank>
-    Flask
-  </a>
+    <img src="https://img.shields.io/badge/flask-%23000000.svg?&style=for-the-badge&logo=flask&logoColor=white" />
+  </a> &nbsp;
   
 - Library
   
   <a href="https://jquery.com" title="jQuery" target=_blank>
-    jQuery
-  </a><br>
+    <img src="https://img.shields.io/badge/jquery-%230769AD.svg?&style=for-the-badge&logo=jquery&logoColor=white" />
+  </a> &nbsp;
   <a href="https://pandas.pydata.org" title="Pandas" target=_blank>
-    Pandas
-  </a><br>
+    <img src="https://img.shields.io/badge/pandas-%23150458.svg?&style=for-the-badge&logo=pandas&logoColor=white" />
+  </a> &nbsp;
   <a href="https://numpy.org" title="NumPy" target=_blank>
-    NumPy
-  </a><br>
+    <img src="https://img.shields.io/badge/numpy-%23013243.svg?&style=for-the-badge&logo=numpy&logoColor=white" />
+  </a> &nbsp;
   <a href="https://scikit-learn.org" title="scikit-learn" target=_blank>
-    scikit-learn
-  </a><br>
+    <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?&style=for-the-badge&logo=scikit-learn&logoColor=3499CD" />
+  </a> &nbsp;
   <a href="https://matplotlib.org" title="Matplotlib" target=_blank>
-    Matplotlib
-  </a><br>
+    <img src="https://custom-icon-badges.demolab.com/badge/matplotlib-66baea.svg?style=for-the-badge&logo=matplotlib" />
+  </a> &nbsp;
   <a href="https://seaborn.pydata.org" title="Seaborn" target=_blank>
-    Seaborn
-  </a><br>
+    <img src="https://custom-icon-badges.demolab.com/badge/seaborn-white.svg?style=for-the-badge&logo=seaborn" />
+  </a> &nbsp;
   <a href="https://docs.python.org/3/library/pickle.html" title="Pickle" target=_blank>
-    Pickle
-  </a>
+    <img src="https://img.shields.io/badge/pickle-%23ffffff.svg?style=for-the-badge&logo=pickle&logoColor=black" />
+  </a> &nbsp;
   
 - Icons and Images
   
   <a href="https://fontawesome.com" title="Font Awesome" target=_blank>
-    Font Awesome
-  </a>
+    <img src="https://img.shields.io/badge/font%20awesome-%23339AF0.svg?&style=for-the-badge&logo=font%20awesome&logoColor=white" />
+  </a> &nbsp;
   
 - Deployment
   
   <a href="https://railway.app" title="Railway App" target=_blank>
-    Railway
-  </a>
+    <img src="https://custom-icon-badges.demolab.com/badge/railway-white.svg?style=for-the-badge&logo=railway-app" />
+  </a> &nbsp;
   
 - Academic Papers
   
