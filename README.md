@@ -4,19 +4,19 @@ Aplikasi Pendeteksi Kualitas Air
 
 ## Daftar Isi
 
-1. [Daftar Isi](#daftar-isi)
-2. [Website Jernihin](#website-jernihin)
-3. [Apa itu Jernihin?](#apa-itu-jernihin)
-   1. [Latar Belakang](#1-latar-belakang)
-   2. [Tujuan](#2-tujuan)
-   3. [Instalasi dan Deployment](#3-instalasi-dan-deployment)
-   4. [Cara Kerja](#4-cara-kerja)
-   5. [Referensi](#5-referensi)
-   6. [Developers](#6-developers)
+1. [Daftar Isi](#daftar-isi "Daftar Isi")
+2. [Website Jernihin](#website-jernihin "Website Jernihin")
+3. [Apa itu Jernihin?](#apa-itu-jernihin "Apa itu Jernihin?")
+   1. [Latar Belakang](#1-latar-belakang "Latar Belakang")
+   2. [Tujuan](#2-tujuan "Tujuan")
+   3. [Instalasi dan Deployment](#3-instalasi-dan-deployment "Instalasi dan Deployment")
+   4. [Cara Kerja](#4-cara-kerja "Cara Kerja")
+   5. [Referensi](#5-referensi "Referensi")
+   6. [Developers](#6-developers "Developers")
 
 ## Website Jernihin
 
-Tautan akses website [Jernihin](https://jernihin.up.railway.app 'Jernihin').
+Tautan akses website <a href="https://jernihin.up.railway.app" title="Jernihin" target="_blank">Jernihin</a>.
 
 ## Apa itu Jernihin?
 
@@ -74,7 +74,7 @@ Agar dapat menjalankan aplikasi website ini pada *virtual environment* lokal, si
   </a>
   
   AmeriGEOSS Community Platform DataHub  
-  [WQI Parameter Scores 1994-2013 Dataset](https://data.amerigeoss.org/dataset/wqi-parameter-scores-1994-2013-b0941 'Water Quality Index Parameter Scores 1994-2013 Dataset')
+  <a href="https://data.amerigeoss.org/dataset/wqi-parameter-scores-1994-2013-b0941" title="Water Quality Index Parameter Scores 1994-2013 Dataset" target="_blank">WQI Parameter Scores 1994-2013 Dataset</a>
   
 - Language
   
