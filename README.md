@@ -165,7 +165,7 @@ Merdeka Belajar Kampus Merdeka 2022
 SIB Dicoding Cycle 3  
 **C22-078 Capstone Team**  
 
-- **M319X0851** - Andrew Benedictus Jamesie
-- **M319Y0854** - Cheliza Sriayu Simarsoit
-- **M248X0512** - A. Gilang Aleyusta Savada
-- **M182Y0310** - Ades Tikaningsih
+- **M319X0851** - <a href="https://github.com/aNdr3W03" title="GitHub Andrew Benedictus Jamesie" target=_blank>Andrew Benedictus Jamesie</a>
+- **M319Y0854** - <a href="https://github.com/chelizaaa" title="GitHub Cheliza Sriayu Simarsoit" target=_blank>Cheliza Sriayu Simarsoit</a>
+- **M248X0512** - <a href="https://github.com/gilangaleyusta" title="GitHub A. Gilang Aleyusta Savada" target=_blank>A. Gilang Aleyusta Savada</a>
+- **M182Y0310** - <a href="https://github.com/adstika20" title="GitHub Ades Tikaningsih" target=_blank>Ades Tikaningsih</a>
