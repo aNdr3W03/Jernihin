@@ -23,7 +23,7 @@ Tautan akses website <a href="https://jernihin.up.railway.app" title="Jernihin" 
 ### 1. Latar Belakang
 Sumber daya alam yang berpotensi besar bagi makhluk hidup dan setiap tahun mengalami peningkatan adalah air. Menurut Data SDG, indeks kualitas air Indonesia tahun 2020 sebesar 53,53, meningkat dari tahun sebelumnya[[1]](https://conference.upnvj.ac.id/index.php/senamika/article/view/2017). Pengukuran air bisa dilihat dari variabel kimia seperti nilai pH, TDS yang berperan penting dalam menentukan kualitas air. Untuk mengetahui kualitas air perlu dilakukan pemantauan secara berkala.
 
-Salah satu upaya untuk membantu strategi pengelolaan sumber daya air dengan membangun aplikasi website menggunakan metode deep learning untuk memprediksi kualitas air dari beberapa variabel[[2]]("https://journal.ipb.ac.id/index.php/jsil/article/view/23735). Aplikasi ini diharapkan dapat memberikan alternatif lain dalam pengelolaan dan pemantauan kualitas air.
+Salah satu upaya untuk membantu strategi pengelolaan sumber daya air dengan membangun aplikasi website menggunakan metode deep learning untuk memprediksi kualitas air dari beberapa variabel[[2]](https://journal.ipb.ac.id/index.php/jsil/article/view/23735). Aplikasi ini diharapkan dapat memberikan alternatif lain dalam pengelolaan dan pemantauan kualitas air.
 
 ### 2. Tujuan
 
