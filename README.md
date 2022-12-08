@@ -21,15 +21,31 @@ Tautan akses website <a href="https://jernihin.up.railway.app" title="Jernihin" 
 ## Apa itu Jernihin?
 
 ### 1. Latar Belakang
-
+Sumber daya alam yang berpotensi besar bagi makhluk hidup dan setiap tahun
+mengalami peningkatan adalah air. [1] Menurut Data SDG, indeks kualitas air Indonesia
+tahun 2020 sebesar 53,53, meningkat dari tahun sebelumnya. Pengukuran air bisa dilihat
+dari variabel kimia seperti nilai pH, TDS yang berperan penting dalam menentukan kualitas
+air. Untuk mengetahui kualitas air perlu dilakukan pemantauan secara berkala. [2] Salah satu
+upaya untuk membantu strategi pengelolaan sumber daya air dengan membangun aplikasi
+website menggunakan metode deep learning untuk memprediksi kualitas air dari beberapa
+variabel. Aplikasi ini diharapkan dapat memberikan alternatif lain dalam pengelolaan dan
+pemantauan kualitas air.
 
 
 ### 2. Tujuan
 
-Berdasarkan latar belakang yang telah dipaparkan di atas, maka didapatkan tujuan dari proyek ini, yaitu:
-
-1. 
-2. 
+Tujuan akhir dari proyek ini adalah sebuah aplikasi website yang dapat memberikan
+hasil prediksi kualitas air, apakah aman untuk dikonsumsi atau tidak layak untuk dikonsumsi
+berdasarkan kandungan partikel di dalam air dan sanitasi sumber daya air yang bersih. Untuk
+melakukan prediksi kualitas air, dibutuhkan sejumlah data terkait variabel-variabel
+pengukuran kualitas air yang dibutuhkan.
+Hasil pengukuran yang akan digunakan sebagai data dapat dilakukan dengan beberapa
+cara, yaitu dengan melakukan pengukuran secara mandiri kandungan partikel dan variabel
+pengukuran kualitas air lainnya menggunakan alat Water Test Strip Kit dengan harga sekitar
+Rp100.000 hingga Rp250.000. Selain itu, untuk memperoleh data hasil pengukuran uji
+kualitas air dapat dilakukan dengan cara mendapatkan data tersebut melalui lembaga
+penelitian atau institusi pendidikan yang memiliki laboratorium pengujian kualitas air yang
+dapat membantu mengumpulkan data hasil pengukuran tersebut secara tepat.
 
 ### 3. Instalasi dan Deployment
 
