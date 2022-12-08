@@ -56,6 +56,8 @@ This step will be explained briefly through two stages, consisting of:
 1. Create the Flask framework
 2. Hosting process to Railway
 
+---
+
 <br>
 <a id="231"></a>
 
@@ -93,7 +95,6 @@ flask run
 <br>
 <a id="232"></a>
 
-
 ---
 
 ### Deploy Machine Learning Model with Flask on Railways
@@ -105,7 +106,6 @@ flask run
 3. Choose deploy form GitHub repo
 
 4. Choose respository project that you want to deploy
-
 
 ---
 
