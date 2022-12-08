@@ -58,7 +58,6 @@ This step will be explained briefly through two stages, consisting of:
 
 ---
 
-<br>
 <a id="231"></a>
 
 ### Installation of the Project to Personal Virtual Environment
@@ -92,10 +91,8 @@ flask run
 
 5. Stop the application program or *server* by `ctrl + c`.
 
-<br>
-<a id="232"></a>
-
 ---
+<a id="232"></a>
 
 ### Deploy Machine Learning Model with Flask on Railways
 
