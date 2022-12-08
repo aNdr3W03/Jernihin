@@ -87,10 +87,6 @@ pip install -r requirements.txt
 4. Import Flask App & Run Server
 
 ```
-flask run
-```
-or
-```
 export FLASK_APP=app.py
 flask run
 ```
