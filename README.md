@@ -1,12 +1,13 @@
+<a id="1"></a>
+
 # Jernihin Demo Link
 #### [**Click here to view Jernihin**](https://https://jernihin.up.railway.app//)
 
 <br>
-
-<a id="toc"></a>
+<a id="0"></a>
 
 # Table of Content
-0. ##### [Table of Content](#toc)
+0. ##### [Table of Content](#0)
 1. ##### [Jernihin Demo Link](#1)
 2. ##### [About Jernihin](#2)
 	1. ###### [Background](#21)
@@ -15,13 +16,13 @@
 		1. [Installation of the Project to Personal Virtual Environment](#231)
 		2. [Deploy Machine Learning Model with Flask on Railway](#232)
 	4. ###### [Jernihin Work - Water Quality Classification](#24)
-	5. ###### [Plans & Realization](#26)
-	6. ###### [Repository & Branch](#27)
-	7. ###### [Bibliography](#28)
-	8. ###### [Developers](#29)
+	5. ###### [Plans & Realization](#25)
+	6. ###### [Repository & Branch](#26)
+	7. ###### [Bibliography](#27)
+	8. ###### [Developers](#28)
+
 
 <br>
-
 <a id="2"></a>
 
 # About Jernihin
@@ -29,7 +30,6 @@
 **Jernihin** is a machine learning program on an Indonesian-based website which is currently in the process of being developed by 4 developers from the SIB3 Capstone C22-078 Team  in the **Machine Learning and Front-End Web Developer Program by SIB Dicoding X Kampus Merdeka Batch 3**.
 
 <br>
-
 <a id="21"></a>
 
 ## Background
@@ -39,17 +39,15 @@ A natural resource that has great potential for living things and continues to i
 One of the efforts to assist the water resources management strategy is to create a system that can monitor the quality of water content. Based on the problems above, we decided to build a website application using deep learning methods to predict water quality from several variables. This application is expected to provide another alternative in the management and monitoring of water quality.
 
 <br>
-
 <a id="22"></a>
 
 ## Goal & Aim
 
 - This website aims to help the community as a utility to help decide and determine water quality. This feature is expected to help in better management of water resources. 
 
-- Jernihin has a feature that can help people to identify water quality based on the content in the water which consists of Fecal, Oxygen, PH, Sediment, Temperature, Nitrogen, Phosphorus, and Turbidity. This feature should be able to help its users to map and identify water quality
+- Jernihin has a feature that can help people to identify water quality based on the content in the water which consists of Fecal, Oxygen, pH, Sediment, Temperature, Nitrogen, Phosphorus, and Turbidity. This feature should be able to help its users to map and identify water quality
 
 <br>
-
 <a id="23"></a>
 
 ## How to Install & Deploy to Railway
@@ -59,7 +57,6 @@ This step will be explained briefly through two stages, consisting of:
 2. Hosting process to Railway
 
 <br>
-
 <a id="231"></a>
 
 ### Installation of the Project to Personal Virtual Environment
@@ -87,6 +84,10 @@ pip install -r requirements.txt
 4. Import Flask App & Run Server
 
 ```
+flask run
+```
+or
+```
 export FLASK_APP=app.py
 flask run
 ```
@@ -94,9 +95,7 @@ flask run
 5. Stop the application program or *server* by `ctrl + c`.
 
 <br>
-
 <a id="232"></a>
-
 ---
 
 ### Deploy Machine Learning Model with Flask on Railways
@@ -119,54 +118,52 @@ flask run
 - [Deploy Machine Learning Model using Flask](https://youtu.be/UbCWoMf80PY)
 
 <br>
-
 <a id="24"></a>
 
 ## Jernihin Work - Water Quality Classification
 
-1. 
-2. 
-3. 
+1. Get user input from the HTML form in the form of Fecal, Oxygen, pH, Sediment, Temperature, Nitrogen, Phosphorus, and Turbidity. These parameters are extracted as replacement values ​​which will be predicted later. The value range is between 0 and 100 for each input.
+
+2. Scale the user input into the NumPy array for inference.
+
+3. Predict user input using the model that has been made. The method used is RandomForestClassify. This function returns an array of model beliefs from all inputs that have been entered.
+
+4. Output predictive labels in the form of obtaining real legible results. Then, this integer value is converted to a result string based on the label that matches the sign. The result of this process is a series of predictive outcomes, such as "Excellent", "Good", "Fair", "Marginal", and "Poor".
+
+5. The final prediction result is returned to the display to be displayed to the user.
 
 <br>
-
-<a id="26"></a>
+<a id="25"></a>
 
 ## Plans & Realization
 
-Gantt chart to assist in scheduling, managing, and monitoring the tasks and resources that exist in this project can be seen in the link below:
+Risk management planning and possible problems that will occur during work on this project was carried out using SWOT analysis, namely Strength, Weaknesses, Opportunities, and Threats. This analysis is carried out to carry out mapping and identification of strengths, weaknesses, opportunities, and threats that may occur when development of this project.
+
+For the initial document, a Gantt Chart has been made for tracking the beginning of the agreed-to-do list. Making Gantt Chart done on ProjectLibre for details of the schedule can be seen in the Gantt Chart document on the following Gantt Chart link, or in the image below:
 
 https://drive.google.com/drive/folders/1MdgNszSIeeMjoXn2jeHOtU7ZDhLj8h68
 
 
-Steps taken from plan & realization:
-
-- 
--
--
-
-
 <br>
-
-<a id="27"></a>
+<a id="26"></a>
 
 ## Repository & Branch
 
 This **Jernihin Repository is divided** into **2 branches**:
 
-- 
--
--
+- **main** (master)
 
+    The main branch is used as an integration branch for front end display development and machine learning model development. The plan is to use the Flask framework to build and integrate websites and machine learning models as a single website.
 
+- **dev** (test site)
+
+    The dev branch is used during the process of determining the initial resources or it can be called an environment where to try different things to be used in the project so that eventually when you have found the appropriate resources, the docs will be moved from dev to main branch.
+    
 <br>
-
-<a id="28"></a>
+<a id="27"></a>
 
 ## Bibliography
-<br>
 
-<a id="281"></a>
 ### A. Dataset Links:
 
  <a href="https://data.amerigeoss.org" title="AmeriGEOSS Community Platform DataHub" target="_blank">
@@ -175,10 +172,12 @@ This **Jernihin Repository is divided** into **2 branches**:
   
   AmeriGEOSS Community Platform DataHub  
   <a href="https://data.amerigeoss.org/dataset/wqi-parameter-scores-1994-2013-b0941" title="Water Quality Index Parameter Scores 1994-2013 Dataset" target="_blank">WQI Parameter Scores 1994-2013 Dataset</a>
-<br>
-<a id="282"></a>
+
+
 ### B. Resources:
-- Language
+In working on this project, several project or project resources are needed resources.
+
+- Programming Language
   
   <a href="https://www.w3schools.com/html" title="HTML5" target=_blank>
     <img src="https://img.shields.io/badge/html5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white" />
@@ -240,18 +239,16 @@ This **Jernihin Repository is divided** into **2 branches**:
 
 ### C. Academic Paper Link:
 
-- [1] H. Said, N. H. Matondang dan H. N. Irmanda, "Sistem Prediksi Kualitas Air Yang Dapat Dikonsumsi Dengan Menerapkan Algoritma K-Nearest Neighbor," *Seminar Nasional Mahasiswa Ilmu Komputer dan Aplikasinya (SENAMIKA)*, vol. 3, no. 1, pp. 158-168, Apr. 2022. Diakses: 12 Okt. 2022. [Online]. Tersedia pada: <a href="https://conference.upnvj.ac.id/index.php/senamika/article/view/2017" target=_blank>https://conference.upnvj.ac.id/index.php/senamika/article/view/2017</a>
+- [1] H. Said, N. H. Matondang dan H. N. Irmanda, "Sistem Prediksi Kualitas Air Yang Dapat Dikonsumsi Dengan Menerapkan Algoritma K-Nearest Neighbor," *Seminar Nasional Mahasiswa Ilmu Komputer dan Aplikasinya (SENAMIKA)*, vol. 3, no. 1, pp. 158-168, Apr. 2022. Accsess: 12 Okt. 2022. [Online]. Available at : <a href="https://conference.upnvj.ac.id/index.php/senamika/article/view/2017" target=_blank>https://conference.upnvj.ac.id/index.php/senamika/article/view/2017</a>
   
-- [2] M. H. D. Barang dan S. K. Saptomo, "Analisis Kualitas Air pada Jalur Distribusi Air Bersih di Gedung Baru Fakultas Ekonomi dan Manajemen Institut Pertanian Bogor," *Jurnal Teknik Sipil dan Lingkungan (J-SIL)*, vol. 4, no. 1, pp. 13-24, Apr. 2019. Diakses: 12 Okt. 2022. doi: 10.29244/jsil.4.1.13-24. [Online]. Tersedia pada: <a href="https://journal.ipb.ac.id/index.php/jsil/article/view/23735" target=_blank>https://journal.ipb.ac.id/index.php/jsil/article/view/23735</a>
+- [2] M. H. D. Barang dan S. K. Saptomo, "Analisis Kualitas Air pada Jalur Distribusi Air Bersih di Gedung Baru Fakultas Ekonomi dan Manajemen Institut Pertanian Bogor," *Jurnal Teknik Sipil dan Lingkungan (J-SIL)*, vol. 4, no. 1, pp. 13-24, Apr. 2019. Accsess: 12 Okt. 2022. doi: 10.29244/jsil.4.1.13-24. [Online]. Aivailable at: <a href="https://journal.ipb.ac.id/index.php/jsil/article/view/23735" target=_blank>https://journal.ipb.ac.id/index.php/jsil/article/view/23735</a>
 
 <br>
-
-<a id="284"></a>
-
+<a id="28"></a>
 
 ## Developers
 
-Merdeka Belajar Kampus Merdeka 2022  
+Merdeka Belajar Kampus Merdeka (MSIB) 2022  
 SIB Dicoding Cycle 3  
 **C22-078 Capstone Team**  
 
