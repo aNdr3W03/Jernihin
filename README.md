@@ -30,7 +30,7 @@ Click here to view <a href="https://jernihin.up.railway.app" title="Jernihin" ta
 
 ## Background
 
-A natural resource that has great potential for living things and continues to increase every year is water [[1]](#c.-academic-paper-link "Sistem Prediksi Kualitas Air Yang Dapat Dikonsumsi Dengan Menerapkan Algoritma K-Nearest Neighbor"). According to the Data on Sustainable Development Goals (SDGs), Indonesia's water quality index for 2020 is 53.53, an increase from the previous year. Water measurements can be seen from chemical variables such as pH value, turbidity, phosphorus, nitrogen, oxygen, and others which play an important role in determining the quality of water. To find out the quality of the water needs to be monitored regularly [[2]](#c.-academic-paper-link "Analisis Kualitas Air pada Jalur Distribusi Air Bersih di Gedung Baru Fakultas Ekonomi dan Manajemen Institut Pertanian Bogor").
+A natural resource that has great potential for living things and continues to increase every year is water. [[1]](#c.-academic-paper-link "Sistem Prediksi Kualitas Air Yang Dapat Dikonsumsi Dengan Menerapkan Algoritma K-Nearest Neighbor") According to the Data on Sustainable Development Goals (SDGs), Indonesia's water quality index for 2020 is 53.53, an increase from the previous year. Water measurements can be seen from chemical variables such as pH value, turbidity, phosphorus, nitrogen, oxygen, and others which play an important role in determining the quality of water. To find out the quality of the water needs to be monitored regularly. [[2]](#c.-academic-paper-link "Analisis Kualitas Air pada Jalur Distribusi Air Bersih di Gedung Baru Fakultas Ekonomi dan Manajemen Institut Pertanian Bogor")
 
 One of the efforts to assist the water resources management strategy is to create a system that can monitor the quality of water content. Based on the problems above, we decided to build a website application using deep learning methods to predict water quality from several variables. This application is expected to provide another alternative in the management and monitoring of water quality.
 
@@ -240,7 +240,7 @@ In working on this project, several project or project resources are needed reso
 
 ## Developers
 
-Merdeka Belajar Kampus Merdeka (MSIB) 2022  
+Merdeka Belajar Kampus Merdeka (MBKM) 2022  
 SIB Dicoding Cycle 3  
 **C22-078 Capstone Team**  
 
