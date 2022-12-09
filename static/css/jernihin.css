@@ -22,6 +22,7 @@ a:hover, a.active { color: #3282FF; }
     font-size: 1.2rem;
     transition: all 0.3s ease;
     text-align: center;
+    border-radius: 10px;
 }
 
 button.tm-btn {
@@ -65,7 +66,7 @@ div { box-sizing: border-box;}
 .tm-color-gray { color: #666768; }
 .tm-color-gray-2 { color: #98999A; }
 .tm-color-light-gray { color: #9E9FA0; }
-.tm-bg-white { background-color: #FFF; }
+.tm-bg-white { background-color: #FFF; border-radius: 0 12px 12px; }
 .tm-bg-gray { background-color: #F1F2F3; }
 .tm-page-title { font-size: 30px; font-weight: bold; }
 blockquote { margin: 0 0 30px 10px; }
@@ -142,6 +143,7 @@ a {
     height: 200px;
     padding: 30px;
     border: 1px solid #D2D3D4;
+    border-radius: 12px;
     color: #999; 
     box-sizing: border-box;
 }
@@ -197,8 +199,9 @@ a {
 
 .tm-close-popup {
     padding: 4.5px 0;
-    color: white;
     background-color: #FF3232;
+    color: white;
+    border-radius: 6px;
 }
 
 .tm-close-popup:hover {
@@ -237,7 +240,8 @@ a {
     padding: 12px 10px 35px;
     width: auto;
     max-width: 1200px;
-    margin: 0 auto; 
+    margin: 0 auto;
+    border-radius: 12px;
 }
 
 /* Move-from-top effect */
@@ -274,6 +278,7 @@ a {
 .tm-intro-img {
     max-width: 300px;
     max-height: 600px;
+    border-radius: 12px 0 0 12px;
 }
 
 /* Gallery */
@@ -315,7 +320,7 @@ a {
 
 .tm-gallery-item {
     overflow: hidden;
-    margin: 15px 10px;
+    margin: 10px 10px;
     min-width: 225px;
     max-width: 225px;
     max-height: 300px;
@@ -330,6 +335,10 @@ a {
     min-height: 100%;
     max-width: 100%;
     opacity: 0.9;
+}
+
+.tm-gallery-container figure {
+    border-radius: 12px;
 }
 
 .tm-gallery-container figure figcaption {
@@ -404,6 +413,7 @@ figure.effect-chico figcaption::before {
 	bottom: 15px;
 	left: 15px;
 	border: 1px solid #FFF;
+    border-radius: 8px;
 	content: '';
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
@@ -436,7 +446,7 @@ figure.effect-chico:hover p {
 }
 
 /* About */
-.mapouter{
+.mapouter {
     position: relative;
     height: 250px;
     width: 100%;
@@ -447,14 +457,21 @@ figure.effect-chico:hover p {
     background: none!important;
     height: 250px;
     width: 100%;
+    border-radius: 8px;
 }
+
 .tm-contact-row {
     max-width: 1045px;
 }
+
 .tm-about-col {
     margin-left: 40px;
     margin-right: 40px;
     max-width: 500px;
+}
+
+.tm-about-col img {
+    border-radius: 12px;
 }
 
 /* Contact */
@@ -483,14 +500,15 @@ figure.effect-chico:hover p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.2rem;
     border: 1px solid #D5D6D7;
+    border-radius: 8px;
     box-sizing: border-box;
     padding: 15px;
     width: 100%;
 }
 
 .form-group {
-    margin-bottom: 25px;
     text-align: right;
+    margin-bottom: 25px;
 }
 
 textarea {
@@ -564,7 +582,7 @@ address {
 
 @media (max-width: 1214px) {
     .tm-intro-pad {
-        padding: 20px 30px 20px; 
+        padding: 20px 30px 20px;
     }
     
     .popup {
