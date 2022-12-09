@@ -14,9 +14,9 @@ Click here to view <a href="https://jernihin.up.railway.app" title="Jernihin" ta
    3. [Installation & Deployment](#installation--deployment)
       1. [Project Installation to Personal Virtual Environment](#project-installation-to-personal-virtual-environment)
       2. [Deploy Machine Learning Model with Flask on Railway](#deploy-machine-learning-model-with-flask-on-railway)
-   4. [Jernihin Work - Water Quality Classification](#24)
+   4. [How Jernihin Work - Water Quality Classification](#how-jernihin-work---water-quality-classification)
    5. [Plans & Realization](#plans--realization)
-   6. [Repository & Branch](#repository-branch)
+   6. [Repository & Branch](#repository--branch)
    7. [Bibliography](#bibliography)
    8. [Developers](#developers)
 
