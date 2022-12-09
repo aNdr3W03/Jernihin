@@ -116,26 +116,29 @@ The steps to create your virtual environment from this project is as follows:
 
 ## Plans & Realization
 
-Risk management planning and possible problems that will occur during work on this project was carried out using SWOT analysis, namely Strength, Weaknesses, Opportunities, and Threats. This analysis is carried out to carry out mapping and identification of strengths, weaknesses, opportunities, and threats that may occur when development of this project.
+Risk management planning and possible problems that will occur during the work of this project was carried out using SWOT analysis, namely Strengths, Weaknesses, Opportunities, and Threats. This analysis was conducted to map and identify the strengths, weaknesses, opportunities, and threats that might occur during the development of this project.
 
-For the initial document, a Gantt Chart has been made for tracking the beginning of the agreed-to-do list. Making Gantt Chart done on ProjectLibre for details of the schedule can be seen in the Gantt Chart document on the following Gantt Chart link, or in the image below:
+For the initial document, a Gantt Chart has been made for tracking the beginning of the agreed-to-do list. Making a Gantt Chart done on ProjectLibre for details of the schedule can be seen in the Gantt Chart document on the following Gantt Chart link, or in the image below:
 
-https://drive.google.com/drive/folders/1MdgNszSIeeMjoXn2jeHOtU7ZDhLj8h68
+<a href="https://drive.google.com/drive/folders/1MdgNszSIeeMjoXn2jeHOtU7ZDhLj8h68" title="Jernihin Project Gantt Chart" target="_blank">
+  <img src="https://user-images.githubusercontent.com/77439245/206624763-e7d47744-7e0c-4411-be4c-d3e6f7de44ff.png" alt="Jernihin Project Gantt Chart" style="width: 100%">
+</a>
 
+<a href="https://drive.google.com/drive/folders/1MdgNszSIeeMjoXn2jeHOtU7ZDhLj8h68" title="Jernihin Project Gantt Chart" target="_blank">Jernihin Project Gantt Chart</a>
 
 <br>
 
 ## Repository & Branch
 
-This **Jernihin Repository is divided** into **2 branches**:
+This **Jernihin Repository** is divided into **2 branches**:
 
-- **main** (master)
+- **main** (master branch)
+  
+  The `main` branch is used as an integration branch for front end display development and machine learning model development. The plan is to use the Flask framework to build and integrate websites and machine learning model as a whole website.
 
-    The main branch is used as an integration branch for front end display development and machine learning model development. The plan is to use the Flask framework to build and integrate websites and machine learning models as a single website.
-
-- **dev** (test site)
-
-    The dev branch is used during the process of determining the initial resources or it can be called an environment where to try different things to be used in the project so that eventually when you have found the appropriate resources, the docs will be moved from dev to main branch.
+- **dev** (development branch)
+  
+  The `dev` branch is used during the process of determining the initial resources or it can be called an environment where to try different things to be used in the project so that eventually when you have found the appropriate resources, the docs will be moved from dev to main branch.
     
 <br>
 
