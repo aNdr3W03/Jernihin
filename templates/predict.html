@@ -32,39 +32,49 @@
     <br>
 
     <form id="contact-form" action="/result" method="POST">
-        <div class="form-group">
-            <label for="fecal" class="form-label">Fecal</label>
-            <input type="nunmber" name="fecal" class="form-control" placeholder="Fecal" onkeypress="return isNumber(event)" required>
+        <div class="row">
+            <div class="col">
+                <label for="fecal" class="form-label">Fecal</label>
+                <input type="nunmber" name="fecal" class="form-control" placeholder="Fecal" onkeypress="return isNumber(event)" required>
+            </div>
+            <div class="col">
+                <label for="oxygen" class="form-label">Oxygen</label>
+                <input type="nunmber" name="oxygen" class="form-control" placeholder="Oxygen" onkeypress="return isNumber(event)" required>
+            </div>
         </div>
-        <div class="form-group">
-            <label for="oxygen" class="form-label">Oxygen</label>
-            <input type="nunmber" name="oxygen" class="form-control" placeholder="Oxygen" onkeypress="return isNumber(event)" required>
+        <div class="row">
+            <div class="col">
+                <label for="ph" class="form-label">pH</label>
+                <input type="nunmber" name="ph" class="form-control" placeholder="pH" onkeypress="return isNumber(event)" required>
+            </div>
+            <div class="col">
+                <label for="tot_sediment" class="form-label">Total Sediment</label>
+                <input type="nunmber" name="tot_sediment" class="form-control" placeholder="Total Sediment" onkeypress="return isNumber(event)" required>
+            </div>
         </div>
-        <div class="form-group">
-            <label for="ph" class="form-label">pH</label>
-            <input type="nunmber" name="ph" class="form-control" placeholder="pH" onkeypress="return isNumber(event)" required>
+        <div class="row">
+            <div class="col">
+                <label for="temp" class="form-label">Temperature</label>
+                <input type="nunmber" name="temp" class="form-control" placeholder="Temperature" onkeypress="return isNumber(event)" required>
+            </div>
+            <div class="col">
+                <label for="nitrogen" class="form-label">Nitrogen</label>
+                <input type="nunmber" name="nitrogen" class="form-control" placeholder="Nitrogen" onkeypress="return isNumber(event)" required>
+            </div>
         </div>
-        <div class="form-group">
-            <label for="tot_sediment" class="form-label">Total Sediment</label>
-            <input type="nunmber" name="tot_sediment" class="form-control" placeholder="Total Sediment" onkeypress="return isNumber(event)" required>
+        <div class="row">
+            <div class="col">
+                <label for="phosphorus" class="form-label">Phosphorus</label>
+                <input type="nunmber" name="phosphorus" class="form-control" placeholder="Phosphorus" onkeypress="return isNumber(event)" required>
+            </div>
+            <div class="col">
+                <label for="turbidity" class="form-label">Turbidity</label>
+                <input type="nunmber" name="turbidity" class="form-control" placeholder="Turbidity" onkeypress="return isNumber(event)" required>
+            </div>
         </div>
+        
         <div class="form-group">
-            <label for="temp" class="form-label">Temperature</label>
-            <input type="nunmber" name="temp" class="form-control" placeholder="Temperature" onkeypress="return isNumber(event)" required>
-        </div>
-        <div class="form-group">
-            <label for="nitrogen" class="form-label">Nitrogen</label>
-            <input type="nunmber" name="nitrogen" class="form-control" placeholder="Nitrogen" onkeypress="return isNumber(event)" required>
-        </div>
-        <div class="form-group">
-            <label for="phosphorus" class="form-label">Phosphorus</label>
-            <input type="nunmber" name="phosphorus" class="form-control" placeholder="Phosphorus" onkeypress="return isNumber(event)" required>
-        </div>
-        <div class="form-group">
-            <label for="turbidity" class="form-label">Turbidity</label>
-            <input type="nunmber" name="turbidity" class="form-control" placeholder="Turbidity" onkeypress="return isNumber(event)" required>
-        </div>
-        <div class="form-group">
+            <br>
             <button type="reset" class="tm-btn btn-red">Reset</button>
             <button type="submit" class="tm-btn btn-blue tm-ml-10">Send</button>
         </div>
