@@ -61,7 +61,6 @@ div { box-sizing: border-box;}
 .tm-mb-80 { margin-bottom: 80px; }
 .tm-ml-10 { margin-left: 10px; }
 .tm-text-center { text-align: center; }
-.tm-text-right { text-align: right; }
 .tm-color-primary { color: #3282FF; }
 .tm-color-gray { color: #666768; }
 .tm-color-gray-2 { color: #98999A; }
@@ -194,7 +193,14 @@ a {
 }
 
 .tm-close-popup {
-    padding: 6px 0;
+    padding: 4.5px 0;
+    color: white;
+    background-color: #FF3232;
+}
+
+.tm-close-popup:hover {
+    color: white;
+    background-color: #FF8A8A;
 }
 
 .tm-close-popup i {
@@ -481,6 +487,7 @@ figure.effect-chico:hover p {
 
 .form-group {
     margin-bottom: 25px;
+    text-align: right;
 }
 
 textarea {
@@ -501,7 +508,8 @@ address {
 }
 
 .tm-predict {
-    margin: 0 10%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 @media (max-width: 1264px) {
@@ -536,9 +544,23 @@ address {
     }
 }
 
+@media (max-width: 1140px) {
+    .tm-predict {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 1020px) {
     .tm-main-nav ul {
         max-width: 612px;
+    }
+}
+
+@media (max-width: 940px) {
+    .tm-predict {
+        max-width: 600px;
+        margin: 0 auto;
     }
 }
 
@@ -663,6 +685,13 @@ address {
     }
 }
 
+@media (max-width: 670px) {
+    .tm-predict {
+        max-width: 600px;
+        margin: 0 20px;
+    }
+}
+
 @media (max-width: 650px) {
     .tm-intro-row {
         flex-direction: column;
@@ -693,7 +722,7 @@ address {
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 412px) {
     .tm-btn {
         width: 100%;
     }
