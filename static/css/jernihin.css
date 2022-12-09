@@ -189,9 +189,12 @@ a {
     color: #8AB3FF;
 }
 
-.tm-close-popup {
+.tm-close {
     text-align: right;
-    display: block;
+}
+
+.tm-close-popup {
+    padding: 6px 0;
 }
 
 .tm-close-popup i {
@@ -495,6 +498,10 @@ textarea {
 
 address {
     font-style: normal;
+}
+
+.tm-predict {
+    margin: 0 10%;
 }
 
 @media (max-width: 1264px) {
