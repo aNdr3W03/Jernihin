@@ -512,6 +512,47 @@ address {
     margin: 0 auto;
 }
 
+.tm-predict-result {
+    text-align: center;
+    margin: 48px 0 72px;
+}
+
+.tm-predict-result p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.tm-predict-desc {
+    padding-top: 12px;
+}
+
+.tm-predict-desc span {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.result {
+    margin-left: 6px;
+    padding: 6px 12px;
+    border-radius: 24px;
+}
+
+.green {
+    color: lime;
+    background-color: green;
+}
+
+.orange {
+    color: gold;
+    background-color: darkgoldenrod;
+}
+
+.red {
+    color: #FF8A8A;
+    background-color: #FF3232;
+}
+
 @media (max-width: 1264px) {
     .tm-main-nav ul { 
         max-width: 918px;

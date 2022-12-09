@@ -5,32 +5,32 @@
 {% block content %}
 <div class="tm-container">
     <div class="tm-predict">
-        {% if result == 5 %}
-        <p>Your water quality is Excellent</p>
-        <p>You can drink your water safely</p>
-        {% endif %}
-
-        {% if result == 4 %}
-        <p>Your water quality is Good</p>
-        <p>You can drink your water safely</p>
-        {% endif %}
-
-        {% if result == 3 %}
-        <p>Your water quality is Fair</p>
-        <p>You can drink your water, but it is recommended to boil it first</p>
-        {% endif %}
-
-        {% if result == 2 %}
-        <p>Your water quality is Marginal</p>
-        <p>Your water sill needs to be purified and further testing</p>
-        {% endif %}
-
-        {% if result == 1 %}
-        <p>Your water quality is Poor</p>
-        <p>You cannot drink your water</p>
-        {% endif %}
-        
-        <br>
+        <div class="tm-predict-result">
+            {% if result == 5 %}
+            <p>Your water quality is <span class="result green">Excellent</span></p>
+            <p class="tm-predict-desc"><span>You can drink your water safely</span></p>
+            {% endif %}
+    
+            {% if result == 4 %}
+            <p>Your water quality is <span class="result green">Good</span></p>
+            <p class="tm-predict-desc">You can drink your water safely</p>
+            {% endif %}
+    
+            {% if result == 3 %}
+            <p>Your water quality is <span class="result orange">Fair</p>
+            <p class="tm-predict-desc">You can drink your water, but it is recommended to boil it first</p>
+            {% endif %}
+    
+            {% if result == 2 %}
+            <p>Your water quality is <span class="orange">Marginal</span></p>
+            <p class="tm-predict-desc">Your water sill needs to be purified and further testing</p>
+            {% endif %}
+    
+            {% if result == 1 %}
+            <p>Your water quality is <span class="red">Poor</span></p>
+            <p class="tm-predict-desc">You cannot drink your water</p>
+            {% endif %}
+        </div>
         
         <div class="tm-close">
             <a href="/" class="tm-close-popup">
