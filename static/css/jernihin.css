@@ -65,7 +65,7 @@ div { box-sizing: border-box;}
 .tm-color-light-gray { color: #9E9FA0; }
 .tm-bg-white { background-color: #FFF; }
 .tm-bg-gray { background-color: #F1F2F3; }
-.tm-page-title { font-size: 30px; }
+.tm-page-title { font-size: 30px; font-weight: bold; }
 blockquote { margin: 0 0 30px 10px; }
 img { max-width: 100%; }
 
@@ -81,6 +81,10 @@ a {
 
 .tm-site-header {
     padding: 20px 5px 20px;
+}
+
+.tm-title {
+    font-weight: bold;
 }
 
 .tm-tagline {
@@ -269,6 +273,7 @@ a {
 }
 
 .tm-gallery-links {
+    margin-top: 15px;
     margin-left: 20px;
     margin-bottom: 30px;
 }
@@ -528,7 +533,11 @@ address {
     }
     
     .tm-gallery-right {
-        flex: 0 0 45%;
+        flex: 0 0 47.5%;
+    }
+
+    .tm-gallery-links {
+        margin-left: 0px;
     }
 
     .tm-content-row {
