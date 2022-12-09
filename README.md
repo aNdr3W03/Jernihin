@@ -59,52 +59,44 @@ This step will be explained briefly through two stages, consisting of:
 
 The steps to create your virtual environment from this project is as follows:
 
-1. Clone this repository
-
-```
-git clone https://github.com/aNdr3W03/Jernihin.git
-```
+1. Clone this Repository
+   ```bash
+   git clone https://github.com/aNdr3W03/Jernihin.git
+   ```
 
 2. Install Python Virtual Environment
-
-```
-virtualenv env
-```
+   ```bash
+   virtualenv venv
+   ```
 
 3. Install All the Requirements Inside "requirements.txt"
-
-```
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 4. Import Flask App & Run Server
+   ```bash
+   export FLASK_APP=app.py
+   flask run
+   ```
+   or
+   ```bash
+   python app.py
+   ```
 
-```
-export FLASK_APP=app.py
-flask run
-```
-
-5. Stop the application program or *server* by `ctrl + c`.
+5. Stop the application program or server by `ctrl + c`.
 
 ---
 
 ### Deploy Machine Learning Model with Flask on Railway
 
-1. Login account in Railway with Email or Github Acoount: https://railway.app/login
+1. <a href="https://railway.app/login" title="Railway Login" taregt=_blank><b>Login</b></a> to Railway account with Email or Github Acoount
 
-2. Create New Project: https://railway.app/new
+2. Create <a href="https://railway.app/new" title="Railway New Project" taregt=_blank><b>New Project</b></a>
 
-3. Choose deploy form GitHub repo
+3. Choose **Deploy form GitHub repo**
 
 4. Choose respository project that you want to deploy
-
----
-
-**Credits & Tutorial:**
-
-- [How to Deploy Machine Learning Model using Flask (Iris Dataset) | Python](https://youtu.be/2LqrfEzuIMk)
-
-- [Deploy Machine Learning Model using Flask](https://youtu.be/UbCWoMf80PY)
 
 <br>
 
