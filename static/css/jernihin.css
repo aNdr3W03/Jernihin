@@ -94,10 +94,13 @@ a {
 }
 
 .navbar {
-    display: flex;
-    justify-content: flex-start;
     align-items: center;
     padding: 20px 50px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .navbar-left img {
@@ -744,12 +747,6 @@ address {
     }
 }
 
-@media (max-width: 558px) {
-    .tm-site-header {
-        padding: 0px 5px 0px ;
-    }
-}
-
 @media (max-width: 540px) {
     .tm-footer {
         flex-direction: column;
@@ -764,9 +761,18 @@ address {
 }
 
 @media (max-width: 470px) {
+    .tm-site-header {
+        padding: 0px 5px 0px ;
+    }
+    
     .navbar {
-        display: block;
         text-align: center;
+        display: block;
+        padding: 10px 15px;
+    }
+
+    .navbar-container {
+        display: block;
     }
 
     .navbar-left img {
