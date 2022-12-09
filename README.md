@@ -144,19 +144,20 @@ This **Jernihin Repository** is divided into **2 branches**:
 
 ## Bibliography
 
-### A. Dataset Links:
+### A. Dataset Links
 
- <a href="https://data.amerigeoss.org" title="AmeriGEOSS Community Platform DataHub" target="_blank">
-    <img src="https://user-images.githubusercontent.com/77439245/206162481-5b17dfc2-fc1e-4f0a-a183-8935999becbc.png" alt="AmeriGEOSS Community Platform DataHub" style="width: 250px">
-  </a>
-  
-  AmeriGEOSS Community Platform DataHub  
-  <a href="https://data.amerigeoss.org/dataset/wqi-parameter-scores-1994-2013-b0941" title="Water Quality Index Parameter Scores 1994-2013 Dataset" target="_blank">WQI Parameter Scores 1994-2013 Dataset</a>
+<a href="https://data.amerigeoss.org" title="AmeriGEOSS Community Platform DataHub" target="_blank">
+  <img src="https://user-images.githubusercontent.com/77439245/206162481-5b17dfc2-fc1e-4f0a-a183-8935999becbc.png" alt="AmeriGEOSS Community Platform DataHub" style="width: 250px">
+</a>
 
-### B. Resources:
+AmeriGEOSS Community Platform DataHub  
+<a href="https://data.amerigeoss.org/dataset/wqi-parameter-scores-1994-2013-b0941" title="Water Quality Index Parameter Scores 1994-2013 Dataset" target="_blank">WQI Parameter Scores 1994-2013 Dataset</a>
+
+### B. Resources
+
 In working on this project, several project or project resources are needed resources.
 
-- Programming Language
+- **Language**
   
   <a href="https://www.w3schools.com/html" title="HTML5" target=_blank>
     <img src="https://img.shields.io/badge/html5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white" />
@@ -171,7 +172,7 @@ In working on this project, several project or project resources are needed reso
     <img src="https://img.shields.io/badge/python-3670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54" />
   </a> &nbsp;
   
-- Framework
+- **Framework**
   
   <a href="https://getbootstrap.com" title="Bootstrap" target=_blank>
     <img src="https://img.shields.io/badge/bootstrap-%237952B3.svg?&style=for-the-badge&logo=bootstrap&logoColor=white" />
@@ -180,7 +181,7 @@ In working on this project, several project or project resources are needed reso
     <img src="https://img.shields.io/badge/flask-%23000000.svg?&style=for-the-badge&logo=flask&logoColor=white" />
   </a> &nbsp;
   
-- Library
+- **Library**
   
   <a href="https://jquery.com" title="jQuery" target=_blank>
     <img src="https://img.shields.io/badge/jquery-%230769AD.svg?&style=for-the-badge&logo=jquery&logoColor=white" />
@@ -204,19 +205,22 @@ In working on this project, several project or project resources are needed reso
     <img src="https://img.shields.io/badge/pickle-%23ffffff.svg?style=for-the-badge&logo=pickle&logoColor=black" />
   </a> &nbsp;
   
-- Icons and Images
+- **Icons and Images**
   
   <a href="https://fontawesome.com" title="Font Awesome" target=_blank>
     <img src="https://img.shields.io/badge/font%20awesome-%23339AF0.svg?&style=for-the-badge&logo=font%20awesome&logoColor=white" />
   </a> &nbsp;
+  <a href="https://unsplash.com" title="Unsplash" target="_blank">
+    <img src="https://img.shields.io/badge/unsplash-%23000000.svg?&style=for-the-badge&logo=unsplash&logoColor=white" />
+  </a> &nbsp;
   
-- Deployment
+- **Deployment**
   
   <a href="https://railway.app" title="Railway App" target=_blank>
     <img src="https://custom-icon-badges.demolab.com/badge/railway-white.svg?style=for-the-badge&logo=railway-app" />
   </a> &nbsp;
 
-### C. Academic Paper Link:
+### C. Academic Paper Link
 
 - [1] H. Said, N. H. Matondang dan H. N. Irmanda, "Sistem Prediksi Kualitas Air Yang Dapat Dikonsumsi Dengan Menerapkan Algoritma K-Nearest Neighbor," *Seminar Nasional Mahasiswa Ilmu Komputer dan Aplikasinya (SENAMIKA)*, vol. 3, no. 1, pp. 158-168, Apr. 2022. Accsess: 12 Okt. 2022. [Online]. Available at : <a href="https://conference.upnvj.ac.id/index.php/senamika/article/view/2017" target=_blank>https://conference.upnvj.ac.id/index.php/senamika/article/view/2017</a>
   
