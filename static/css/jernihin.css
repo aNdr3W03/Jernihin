@@ -523,8 +523,8 @@ address {
     font-size: 28px;
 }
 
-.tm-predict-desc {
-    padding-top: 12px;
+.tm-predict-title {
+    padding-bottom: 12px;
 }
 
 .tm-predict-desc span {
@@ -763,6 +763,30 @@ address {
     }
 }
 
+@media (max-width: 470px) {
+    .navbar {
+        display: block;
+        text-align: center;
+    }
+
+    .navbar-left img {
+        width: 60px;
+        margin: 0;
+    }
+    
+    .tm-title {
+        font-size: 28px;
+    }
+
+    .tm-tagline {
+        font-size: 22px;
+    }
+
+    .tm-predict-title {
+        line-height: 1.7;
+    }
+}
+
 @media (max-width: 412px) {
     .tm-btn {
         width: 100%;
@@ -774,5 +798,9 @@ address {
 
     .btn-blue {
         margin-left: 0;
+    }
+
+    .tm-footer {
+        text-align: center;
     }
 }
