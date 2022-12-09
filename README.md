@@ -30,7 +30,7 @@ Click here to view <a href="https://jernihin.up.railway.app" title="Jernihin" ta
 
 ## Background
 
-A natural resource that has great potential for living things and continues to increase every year is water. According to the Data on Sustainable Development Goals (SDGs), Indonesia's water quality index for 2020 is 53.53, an increase from the previous year. Water measurements can be seen from chemical variables such as pH value, turbidity, phosphorus, nitrogen, oxygen, and others which play an important role in determining the quality of water. To find out the quality of the water needs to be monitored regularly.
+A natural resource that has great potential for living things and continues to increase every year is water [[1]](#c.-academic-paper-link "Sistem Prediksi Kualitas Air Yang Dapat Dikonsumsi Dengan Menerapkan Algoritma K-Nearest Neighbor"). According to the Data on Sustainable Development Goals (SDGs), Indonesia's water quality index for 2020 is 53.53, an increase from the previous year. Water measurements can be seen from chemical variables such as pH value, turbidity, phosphorus, nitrogen, oxygen, and others which play an important role in determining the quality of water. To find out the quality of the water needs to be monitored regularly [[2]](#c.-academic-paper-link "Analisis Kualitas Air pada Jalur Distribusi Air Bersih di Gedung Baru Fakultas Ekonomi dan Manajemen Institut Pertanian Bogor").
 
 One of the efforts to assist the water resources management strategy is to create a system that can monitor the quality of water content. Based on the problems above, we decided to build a website application using deep learning methods to predict water quality from several variables. This application is expected to provide another alternative in the management and monitoring of water quality.
 
@@ -38,16 +38,19 @@ One of the efforts to assist the water resources management strategy is to creat
 
 ## Goal & Aim
 
+Based on the background described above, the goal and aim of this project are:
+
 - This website aims to help the community as a utility to help decide and determine water quality. This feature is expected to help in better management of water resources. 
 
-- Jernihin has a feature that can help people to identify water quality based on the content in the water which consists of Fecal, Oxygen, pH, Sediment, Temperature, Nitrogen, Phosphorus, and Turbidity. This feature should be able to help its users to map and identify water quality
+- Jernihin has a feature that can help people to identify water quality based on the content in the water which consists of Fecal, Oxygen, pH, Sediment, Temperature, Nitrogen, Phosphorus, and Turbidity. This feature should be able to help its users to map and identify water quality.
 
 <br>
 
 ## Installation & Deployment
 
 This step will be explained briefly through two stages, consisting of:
-1. Create the Flask framework
+
+1. Create the Flask framework on the project
 2. Hosting process to Railway
 
 ---
