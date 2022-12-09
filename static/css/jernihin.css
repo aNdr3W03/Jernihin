@@ -80,12 +80,12 @@ a {
 }
 
 .tm-site-header {
-    padding: 60px 70px 30px;
+    padding: 20px 5px 20px ;
 }
 
 .tm-tagline {
     font-size: 1.5rem;   
-    margin-left: 130px;
+    margin-left: 0px;
 }
 
 #tm-video-container {
@@ -234,17 +234,20 @@ button.mfp-arrow {
 
 /* Gallery */
 .tm-gallery {
-    flex: 0 0 60.6%;
-    margin: 0 20px;
+    flex: 0 0 45%;
+    padding-left: 20px;
+    /* margin: 0 20px; */
 }
 
 .tm-gallery-right {
-    flex: 0 0 33.4%;
-    margin-left: 15px;
+    flex: 0 0 55%;
+    padding-right: 20px;
+    padding-left: 30px;
+    /* margin: 0px 0; */
 }
 
 .tm-gallery-links {
-    margin-left: 20px;
+    margin-left: 0px;
     margin-bottom: 20px;
 }
 
@@ -259,8 +262,10 @@ button.mfp-arrow {
 }
 
 .tm-gallery-container {
+    display: flex;
     position: relative;    
     max-width: 800px;
+    padding: 0px;
     margin: 0 -10px;
     list-style: none;
     text-align: center;
@@ -272,7 +277,7 @@ button.mfp-arrow {
     min-width: 225px;
     max-width: 225px;
     max-height: 300px;
-    width: 25%;
+    width: 20%;
     background: #79AAFF;
     text-align: center;
     cursor: pointer;
@@ -631,4 +636,15 @@ address {
     .tm-main-nav ul { 
         max-width: 306px;
     }
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.navbar2 > em {
+    padding-left: 0px;
 }
