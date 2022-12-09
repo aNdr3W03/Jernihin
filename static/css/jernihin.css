@@ -21,6 +21,7 @@ a:hover, a.active { color: #3282FF; }
     cursor: pointer;
     font-size: 1.2rem;
     transition: all 0.3s ease;
+    text-align: center;
 }
 
 button.tm-btn {
@@ -442,7 +443,6 @@ figure.effect-chico:hover p {
     margin-left: 40px;
     margin-right: 40px;
     max-width: 500px;
-    /* text-align: justify; */
 }
 
 /* Contact */
@@ -456,12 +456,13 @@ figure.effect-chico:hover p {
 }
 
 .tm-contact-col-r {
+    flex: 0 0 60%;
     padding-left: 0;
     padding-right: 30px;
 }
 
 .tm-contact-form {
-    max-width: 350px;
+    max-width: 420px;
     margin-left: 0px;
     margin-right: 40px;
 }
@@ -521,6 +522,10 @@ address {
 
     .tm-about-left {
         flex: 0 0 33%;
+    }
+
+    .tm-contact-col-r {
+        flex: 0 0 48%;
     }
 }
 
@@ -678,5 +683,19 @@ address {
 @media (max-width: 532px) {
     .tm-main-nav ul { 
         max-width: 306px;
+    }
+}
+
+@media (max-width: 350px) {
+    .tm-btn {
+        width: 100%;
+    }
+
+    .btn-red {
+        margin-bottom: 10px;
+    }
+
+    .btn-blue {
+        margin-left: 0;
     }
 }
