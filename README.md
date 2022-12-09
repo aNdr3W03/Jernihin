@@ -90,9 +90,9 @@ The steps to create your virtual environment from this project is as follows:
 
 ### Deploy Machine Learning Model with Flask on Railway
 
-1. <a href="https://railway.app/login" title="Railway Login" taregt=_blank><b>Login</b></a> to Railway account with Email or Github Acoount
+1. <a href="https://railway.app/login" title="Railway Login" target="_blank"><b>Login</b></a> to Railway account with Email or Github Acoount
 
-2. Create <a href="https://railway.app/new" title="Railway New Project" taregt=_blank><b>New Project</b></a>
+2. Create <a href="https://railway.app/new" title="Railway New Project" target="_blank"><b>New Project</b></a>
 
 3. Choose **Deploy form GitHub repo**
 
