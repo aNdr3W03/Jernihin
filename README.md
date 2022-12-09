@@ -1,36 +1,32 @@
-<a id="1"></a>
+# Jernihin
 
-# Jernihin Demo Link
-#### [**Click here to view Jernihin**](https://https://jernihin.up.railway.app//)
+Click here to view <a href="https://jernihin.up.railway.app" title="Jernihin" target="_blank"><b>Jernihin</b></a>.
 
 <br>
-<a id="0"></a>
 
 # Table of Content
-0. ##### [Table of Content](#0)
-1. ##### [Jernihin Demo Link](#1)
-2. ##### [About Jernihin](#2)
-	1. ###### [Background](#21)
-	2. ###### [Goal & Aim](#22)
-	3. ###### [How to Install & Deploy to Railways](#23)
-		1. [Installation of the Project to Personal Virtual Environment](#231)
-		2. [Deploy Machine Learning Model with Flask on Railway](#232)
-	4. ###### [Jernihin Work - Water Quality Classification](#24)
-	5. ###### [Plans & Realization](#25)
-	6. ###### [Repository & Branch](#26)
-	7. ###### [Bibliography](#27)
-	8. ###### [Developers](#28)
 
+1. [Jernihin](#jernihin)
+2. [Table of Content](#table-of-content)
+3. [About Jernihin](#about-jernihin)
+   1. [Background](#background)
+   2. [Goal & Aim](#goal--aim)
+   3. [Installation & Deployment](#installation--deployment)
+      1. [Project Installation to Personal Virtual Environment](#project-installation-to-personal-virtual-environment)
+      2. [Deploy Machine Learning Model with Flask on Railway](#deploy-machine-learning-model-with-flask-on-railway)
+   4. [Jernihin Work - Water Quality Classification](#24)
+   5. [Plans & Realization](#plans--realization)
+   6. [Repository & Branch](#repository-branch)
+   7. [Bibliography](#bibliography)
+   8. [Developers](#developers)
 
 <br>
-<a id="2"></a>
 
 # About Jernihin
 
-**Jernihin** is a machine learning program on an Indonesian-based website which is currently in the process of being developed by 4 developers from the SIB3 Capstone C22-078 Team  in the **Machine Learning and Front-End Web Developer Program by SIB Dicoding X Kampus Merdeka Batch 3**.
+**Jernihin** is a machine learning program on an Indonesian-based website which is currently in the process of being developed by 4 developers from the SIB3 Capstone C22-078 Team in the **Machine Learning and Front-End Web Developer Program by SIB Dicoding X Kampus Merdeka Batch 3**.
 
 <br>
-<a id="21"></a>
 
 ## Background
 
@@ -39,7 +35,6 @@ A natural resource that has great potential for living things and continues to i
 One of the efforts to assist the water resources management strategy is to create a system that can monitor the quality of water content. Based on the problems above, we decided to build a website application using deep learning methods to predict water quality from several variables. This application is expected to provide another alternative in the management and monitoring of water quality.
 
 <br>
-<a id="22"></a>
 
 ## Goal & Aim
 
@@ -48,9 +43,8 @@ One of the efforts to assist the water resources management strategy is to creat
 - Jernihin has a feature that can help people to identify water quality based on the content in the water which consists of Fecal, Oxygen, pH, Sediment, Temperature, Nitrogen, Phosphorus, and Turbidity. This feature should be able to help its users to map and identify water quality
 
 <br>
-<a id="23"></a>
 
-## How to Install & Deploy to Railway
+## Installation & Deployment
 
 This step will be explained briefly through two stages, consisting of:
 1. Create the Flask framework
@@ -58,9 +52,7 @@ This step will be explained briefly through two stages, consisting of:
 
 ---
 
-<a id="231"></a>
-
-### Installation of the Project to Personal Virtual Environment
+### Project Installation to Personal Virtual Environment
 
 The steps to create your virtual environment from this project is as follows:
 
@@ -92,9 +84,8 @@ flask run
 5. Stop the application program or *server* by `ctrl + c`.
 
 ---
-<a id="232"></a>
 
-### Deploy Machine Learning Model with Flask on Railways
+### Deploy Machine Learning Model with Flask on Railway
 
 1. Login account in Railway with Email or Github Acoount: https://railway.app/login
 
@@ -113,11 +104,10 @@ flask run
 - [Deploy Machine Learning Model using Flask](https://youtu.be/UbCWoMf80PY)
 
 <br>
-<a id="24"></a>
 
-## Jernihin Work - Water Quality Classification
+## How Jernihin Work - Water Quality Classification
 
-1. Get user input from the HTML form in the form of Fecal, Oxygen, pH, Sediment, Temperature, Nitrogen, Phosphorus, and Turbidity. These parameters are extracted as replacement values ​​which will be predicted later. The value range is between 0 and 100 for each input.
+1. Get user input from the HTML form in the form of Fecal, Oxygen, pH, Sediment, Temperature, Nitrogen, Phosphorus, and Turbidity. These parameters are extracted as replacement values which will be predicted later. The value range is between 0 and 100 for each input.
 
 2. Scale the user input into the NumPy array for inference.
 
@@ -128,7 +118,6 @@ flask run
 5. The final prediction result is returned to the display to be displayed to the user.
 
 <br>
-<a id="25"></a>
 
 ## Plans & Realization
 
@@ -140,7 +129,6 @@ https://drive.google.com/drive/folders/1MdgNszSIeeMjoXn2jeHOtU7ZDhLj8h68
 
 
 <br>
-<a id="26"></a>
 
 ## Repository & Branch
 
@@ -155,7 +143,6 @@ This **Jernihin Repository is divided** into **2 branches**:
     The dev branch is used during the process of determining the initial resources or it can be called an environment where to try different things to be used in the project so that eventually when you have found the appropriate resources, the docs will be moved from dev to main branch.
     
 <br>
-<a id="27"></a>
 
 ## Bibliography
 
@@ -167,7 +154,6 @@ This **Jernihin Repository is divided** into **2 branches**:
   
   AmeriGEOSS Community Platform DataHub  
   <a href="https://data.amerigeoss.org/dataset/wqi-parameter-scores-1994-2013-b0941" title="Water Quality Index Parameter Scores 1994-2013 Dataset" target="_blank">WQI Parameter Scores 1994-2013 Dataset</a>
-
 
 ### B. Resources:
 In working on this project, several project or project resources are needed resources.
@@ -239,7 +225,6 @@ In working on this project, several project or project resources are needed reso
 - [2] M. H. D. Barang dan S. K. Saptomo, "Analisis Kualitas Air pada Jalur Distribusi Air Bersih di Gedung Baru Fakultas Ekonomi dan Manajemen Institut Pertanian Bogor," *Jurnal Teknik Sipil dan Lingkungan (J-SIL)*, vol. 4, no. 1, pp. 13-24, Apr. 2019. Accsess: 12 Okt. 2022. doi: 10.29244/jsil.4.1.13-24. [Online]. Aivailable at: <a href="https://journal.ipb.ac.id/index.php/jsil/article/view/23735" target=_blank>https://journal.ipb.ac.id/index.php/jsil/article/view/23735</a>
 
 <br>
-<a id="28"></a>
 
 ## Developers
 
@@ -251,6 +236,3 @@ SIB Dicoding Cycle 3
 - **M319Y0854** - <a href="https://github.com/chelizaaa" title="GitHub Cheliza Sriayu Simarsoit" target=_blank>Cheliza Sriayu Simarsoit</a>
 - **M248X0512** - <a href="https://github.com/gilangaleyusta" title="GitHub A. Gilang Aleyusta Savada" target=_blank>A. Gilang Aleyusta Savada</a>
 - **M182Y0310** - <a href="https://github.com/adstika20" title="GitHub Ades Tikaningsih" target=_blank>Ades Tikaningsih</a>
-
-
-
