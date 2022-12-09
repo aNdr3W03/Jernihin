@@ -106,11 +106,11 @@ The steps to create your virtual environment from this project is as follows:
 
 2. Scale the user input into the NumPy array for inference.
 
-3. Predict user input using the model that has been made. The method used is RandomForestClassify. This function returns an array of model beliefs from all inputs that have been entered.
+3. Predict the user input using the model that has been made. The model used is the Random Forest Classifier ensemble tree-based learning algorithm. This will return the result of an array of model predictions from all inputs that have been entered.
 
 4. Output predictive labels in the form of obtaining real legible results. Then, this integer value is converted to a result string based on the label that matches the sign. The result of this process is a series of predictive outcomes, such as "Excellent", "Good", "Fair", "Marginal", and "Poor".
 
-5. The final prediction result is returned to the display to be displayed to the user.
+5. The final prediction result is returned to the prediction page to be displayed to the user.
 
 <br>
 
