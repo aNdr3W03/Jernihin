@@ -18,7 +18,11 @@ Click here to view <a href="https://jernihin.up.railway.app" title="Jernihin" ta
    5. [Plans & Realization](#plans--realization)
    6. [Repository & Branch](#repository--branch)
    7. [Bibliography](#bibliography)
-   8. [Developers](#developers)
+      1. [Dataset](#a-dataset)
+      2. [Resources](#b-resources)
+      3. [Academic Papers](#c-academic-papers)
+      4. [References](#d-references)
+   9. [Developers](#developers)
 
 <br>
 
@@ -144,7 +148,7 @@ This **Jernihin Repository** is divided into **2 branches**:
 
 ## Bibliography
 
-### A. Dataset Links
+### A. Dataset
 
 <a href="https://data.amerigeoss.org" title="AmeriGEOSS Community Platform DataHub" target="_blank">
   <img src="https://user-images.githubusercontent.com/77439245/206162481-5b17dfc2-fc1e-4f0a-a183-8935999becbc.png" alt="AmeriGEOSS Community Platform DataHub" style="width: 250px">
@@ -220,13 +224,13 @@ In working on this project, several project or project resources are needed reso
     <img src="https://custom-icon-badges.demolab.com/badge/railway-white.svg?style=for-the-badge&logo=railway-app" />
   </a> &nbsp;
 
-### C. Academic Paper Link
+### C. Academic Papers
 
 - [1] H. Said, N. H. Matondang and H. N. Irmanda, "Sistem Prediksi Kualitas Air Yang Dapat Dikonsumsi Dengan Menerapkan Algoritma K-Nearest Neighbor," *Seminar Nasional Mahasiswa Ilmu Komputer dan Aplikasinya (SENAMIKA)*, vol. 3, no. 1, pp. 158-168, Apr. 2022. Accessed: Oct. 12, 2022. [Online]. Available: <a href="https://conference.upnvj.ac.id/index.php/senamika/article/view/2017" target="_blank">https://conference.upnvj.ac.id/index.php/senamika/article/view/2017</a>
   
 - [2] M. H. D. Barang dan S. K. Saptomo, "Analisis Kualitas Air pada Jalur Distribusi Air Bersih di Gedung Baru Fakultas Ekonomi dan Manajemen Institut Pertanian Bogor," *Jurnal Teknik Sipil dan Lingkungan (J-SIL)*, vol. 4, no. 1, pp. 13-24, Apr. 2019. Accessed: Oct. 12, 2022. doi: 10.29244/jsil.4.1.13-24. [Online]. Aivailable: <a href="https://journal.ipb.ac.id/index.php/jsil/article/view/23735" target="_blank">https://journal.ipb.ac.id/index.php/jsil/article/view/23735</a>
 
-### D. References Link
+### D. References
 
 - [3] Government of Newfoundland and Labrador, "*Drinking Water Quality Index.*" <a href="https://www.gov.nl.ca" target="_blank">gov.nl.ca</a>. <a href="https://www.gov.nl.ca/ecc/waterres/quality/drinkingwater/dwqi" target="_blank">https://www.gov.nl.ca/ecc/waterres/quality/drinkingwater/dwqi</a> (accessed October 12, 2022).
 
