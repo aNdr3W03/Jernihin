@@ -226,6 +226,16 @@ In working on this project, several project or project resources are needed reso
   
 - [2] M. H. D. Barang dan S. K. Saptomo, "Analisis Kualitas Air pada Jalur Distribusi Air Bersih di Gedung Baru Fakultas Ekonomi dan Manajemen Institut Pertanian Bogor," *Jurnal Teknik Sipil dan Lingkungan (J-SIL)*, vol. 4, no. 1, pp. 13-24, Apr. 2019. Accsess: 12 Okt. 2022. doi: 10.29244/jsil.4.1.13-24. [Online]. Aivailable at: <a href="https://journal.ipb.ac.id/index.php/jsil/article/view/23735" target=_blank>https://journal.ipb.ac.id/index.php/jsil/article/view/23735</a>
 
+### D. References Link
+
+- [3] Government of Newfoundland and Labrador, "*Drinking Water Quality Index.*" <a href="https://www.gov.nl.ca" target="_blank">gov.nl.ca</a>. <a href="https://www.gov.nl.ca/ecc/waterres/quality/drinkingwater/dwqi" target="_blank">https://www.gov.nl.ca/ecc/waterres/quality/drinkingwater/dwqi</a> (accessed October 12, 2022).
+
+- [4] Nutan, "*Deploy Machine Learning Model with Flask on Heroku.*" <a href="https://medium.com" target="_blank">medium.com</a>. <a href="https://medium.com/@nutanbhogendrasharma/deploy-machine-learning-model-with-flask-on-heroku-cd079b692b1d" target="_blank">https://medium.com/@nutanbhogendrasharma/deploy-machine-learning-model-with-flask-on-heroku-cd079b692b1d</a> (accessed October 12, 2022).
+
+- [5] A. Sridhar, "*How to Deploy Machine Learning Model using Flask (Iris Dataset) | Python.*" <a href="https://youtube.com" target="_blank">youtube.com</a>. <a href="https://youtu.be/2LqrfEzuIMk" target="_blank">https://youtu.be/2LqrfEzuIMk</a> (accessed November 23, 2022).
+
+- [6] K. Naik, "*Deploy Machine Learning Model using Flask.*" <a href="https://youtube.com" target="_blank">youtube.com</a>. <a href="https://youtu.be/UbCWoMf80PY" target="_blank">https://youtu.be/UbCWoMf80PY</a> (accessed November 23, 2022).
+
 <br>
 
 ## Developers
