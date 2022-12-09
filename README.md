@@ -149,7 +149,7 @@ This **Jernihin Repository** is divided into **2 branches**:
 <a href="https://data.amerigeoss.org" title="AmeriGEOSS Community Platform DataHub" target="_blank">
   <img src="https://user-images.githubusercontent.com/77439245/206162481-5b17dfc2-fc1e-4f0a-a183-8935999becbc.png" alt="AmeriGEOSS Community Platform DataHub" style="width: 250px">
 </a>
-
+  
 AmeriGEOSS Community Platform DataHub  
 <a href="https://data.amerigeoss.org/dataset/wqi-parameter-scores-1994-2013-b0941" title="Water Quality Index Parameter Scores 1994-2013 Dataset" target="_blank">WQI Parameter Scores 1994-2013 Dataset</a>
 
@@ -159,55 +159,55 @@ In working on this project, several project or project resources are needed reso
 
 - **Language**
   
-  <a href="https://www.w3schools.com/html" title="HTML5" target=_blank>
+  <a href="https://www.w3schools.com/html" title="HTML5" target="_blank">
     <img src="https://img.shields.io/badge/html5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white" />
   </a> &nbsp;
-  <a href="https://www.w3schools.com/css" title="CSS3" target=_blank>
+  <a href="https://www.w3schools.com/css" title="CSS3" target="_blank">
     <img src="https://img.shields.io/badge/css3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white" />
   </a> &nbsp;
-  <a href="https://www.javascript.com" title="JavaScript" target=_blank>
+  <a href="https://www.javascript.com" title="JavaScript" target="_blank">
     <img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black" />
   </a> &nbsp;
-  <a href="https://www.python.org" title="Python" target=_blank>
+  <a href="https://www.python.org" title="Python" target="_blank">
     <img src="https://img.shields.io/badge/python-3670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54" />
   </a> &nbsp;
   
 - **Framework**
   
-  <a href="https://getbootstrap.com" title="Bootstrap" target=_blank>
+  <a href="https://getbootstrap.com" title="Bootstrap" target="_blank">
     <img src="https://img.shields.io/badge/bootstrap-%237952B3.svg?&style=for-the-badge&logo=bootstrap&logoColor=white" />
   </a> &nbsp;
-  <a href="https://flask.palletsprojects.com" title="Flask" target=_blank>
+  <a href="https://flask.palletsprojects.com" title="Flask" target="_blank">
     <img src="https://img.shields.io/badge/flask-%23000000.svg?&style=for-the-badge&logo=flask&logoColor=white" />
   </a> &nbsp;
   
 - **Library**
   
-  <a href="https://jquery.com" title="jQuery" target=_blank>
+  <a href="https://jquery.com" title="jQuery" target="_blank">
     <img src="https://img.shields.io/badge/jquery-%230769AD.svg?&style=for-the-badge&logo=jquery&logoColor=white" />
   </a> &nbsp;
-  <a href="https://pandas.pydata.org" title="Pandas" target=_blank>
+  <a href="https://pandas.pydata.org" title="Pandas" target="_blank">
     <img src="https://img.shields.io/badge/pandas-%23150458.svg?&style=for-the-badge&logo=pandas&logoColor=white" />
   </a> &nbsp;
-  <a href="https://numpy.org" title="NumPy" target=_blank>
+  <a href="https://numpy.org" title="NumPy" target="_blank">
     <img src="https://img.shields.io/badge/numpy-%23013243.svg?&style=for-the-badge&logo=numpy&logoColor=white" />
   </a> &nbsp;
-  <a href="https://scikit-learn.org" title="scikit-learn" target=_blank>
+  <a href="https://scikit-learn.org" title="scikit-learn" target="_blank">
     <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?&style=for-the-badge&logo=scikit-learn&logoColor=3499CD" />
   </a> &nbsp;
-  <a href="https://matplotlib.org" title="Matplotlib" target=_blank>
+  <a href="https://matplotlib.org" title="Matplotlib" target="_blank">
     <img src="https://custom-icon-badges.demolab.com/badge/matplotlib-66baea.svg?style=for-the-badge&logo=matplotlib" />
   </a> &nbsp;
-  <a href="https://seaborn.pydata.org" title="Seaborn" target=_blank>
+  <a href="https://seaborn.pydata.org" title="Seaborn" target="_blank">
     <img src="https://custom-icon-badges.demolab.com/badge/seaborn-white.svg?style=for-the-badge&logo=seaborn" />
   </a> &nbsp;
-  <a href="https://docs.python.org/3/library/pickle.html" title="Pickle" target=_blank>
+  <a href="https://docs.python.org/3/library/pickle.html" title="Pickle" target="_blank">
     <img src="https://img.shields.io/badge/pickle-%23ffffff.svg?style=for-the-badge&logo=pickle&logoColor=black" />
   </a> &nbsp;
   
 - **Icons and Images**
   
-  <a href="https://fontawesome.com" title="Font Awesome" target=_blank>
+  <a href="https://fontawesome.com" title="Font Awesome" target="_blank">
     <img src="https://img.shields.io/badge/font%20awesome-%23339AF0.svg?&style=for-the-badge&logo=font%20awesome&logoColor=white" />
   </a> &nbsp;
   <a href="https://unsplash.com" title="Unsplash" target="_blank">
@@ -216,15 +216,15 @@ In working on this project, several project or project resources are needed reso
   
 - **Deployment**
   
-  <a href="https://railway.app" title="Railway App" target=_blank>
+  <a href="https://railway.app" title="Railway App" target="_blank">
     <img src="https://custom-icon-badges.demolab.com/badge/railway-white.svg?style=for-the-badge&logo=railway-app" />
   </a> &nbsp;
 
 ### C. Academic Paper Link
 
-- [1] H. Said, N. H. Matondang dan H. N. Irmanda, "Sistem Prediksi Kualitas Air Yang Dapat Dikonsumsi Dengan Menerapkan Algoritma K-Nearest Neighbor," *Seminar Nasional Mahasiswa Ilmu Komputer dan Aplikasinya (SENAMIKA)*, vol. 3, no. 1, pp. 158-168, Apr. 2022. Accsess: 12 Okt. 2022. [Online]. Available at : <a href="https://conference.upnvj.ac.id/index.php/senamika/article/view/2017" target=_blank>https://conference.upnvj.ac.id/index.php/senamika/article/view/2017</a>
+- [1] H. Said, N. H. Matondang and H. N. Irmanda, "Sistem Prediksi Kualitas Air Yang Dapat Dikonsumsi Dengan Menerapkan Algoritma K-Nearest Neighbor," *Seminar Nasional Mahasiswa Ilmu Komputer dan Aplikasinya (SENAMIKA)*, vol. 3, no. 1, pp. 158-168, Apr. 2022. Accessed: Oct. 12, 2022. [Online]. Available: <a href="https://conference.upnvj.ac.id/index.php/senamika/article/view/2017" target="_blank">https://conference.upnvj.ac.id/index.php/senamika/article/view/2017</a>
   
-- [2] M. H. D. Barang dan S. K. Saptomo, "Analisis Kualitas Air pada Jalur Distribusi Air Bersih di Gedung Baru Fakultas Ekonomi dan Manajemen Institut Pertanian Bogor," *Jurnal Teknik Sipil dan Lingkungan (J-SIL)*, vol. 4, no. 1, pp. 13-24, Apr. 2019. Accsess: 12 Okt. 2022. doi: 10.29244/jsil.4.1.13-24. [Online]. Aivailable at: <a href="https://journal.ipb.ac.id/index.php/jsil/article/view/23735" target=_blank>https://journal.ipb.ac.id/index.php/jsil/article/view/23735</a>
+- [2] M. H. D. Barang dan S. K. Saptomo, "Analisis Kualitas Air pada Jalur Distribusi Air Bersih di Gedung Baru Fakultas Ekonomi dan Manajemen Institut Pertanian Bogor," *Jurnal Teknik Sipil dan Lingkungan (J-SIL)*, vol. 4, no. 1, pp. 13-24, Apr. 2019. Accessed: Oct. 12, 2022. doi: 10.29244/jsil.4.1.13-24. [Online]. Aivailable: <a href="https://journal.ipb.ac.id/index.php/jsil/article/view/23735" target="_blank">https://journal.ipb.ac.id/index.php/jsil/article/view/23735</a>
 
 ### D. References Link
 
@@ -244,7 +244,7 @@ Merdeka Belajar Kampus Merdeka (MSIB) 2022
 SIB Dicoding Cycle 3  
 **C22-078 Capstone Team**  
 
-- **M319X0851** - <a href="https://github.com/aNdr3W03" title="GitHub Andrew Benedictus Jamesie" target=_blank>Andrew Benedictus Jamesie</a>
-- **M319Y0854** - <a href="https://github.com/chelizaaa" title="GitHub Cheliza Sriayu Simarsoit" target=_blank>Cheliza Sriayu Simarsoit</a>
-- **M248X0512** - <a href="https://github.com/gilangaleyusta" title="GitHub A. Gilang Aleyusta Savada" target=_blank>A. Gilang Aleyusta Savada</a>
-- **M182Y0310** - <a href="https://github.com/adstika20" title="GitHub Ades Tikaningsih" target=_blank>Ades Tikaningsih</a>
+- **M319X0851** - <a href="https://github.com/aNdr3W03" title="GitHub Andrew Benedictus Jamesie" target="_blank">Andrew Benedictus Jamesie</a>
+- **M319Y0854** - <a href="https://github.com/chelizaaa" title="GitHub Cheliza Sriayu Simarsoit" target="_blank">Cheliza Sriayu Simarsoit</a>
+- **M248X0512** - <a href="https://github.com/gilangaleyusta" title="GitHub A. Gilang Aleyusta Savada" target="_blank">A. Gilang Aleyusta Savada</a>
+- **M182Y0310** - <a href="https://github.com/adstika20" title="GitHub Ades Tikaningsih" target="_blank">Ades Tikaningsih</a>
