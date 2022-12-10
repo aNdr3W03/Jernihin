@@ -54,7 +54,7 @@ div { box-sizing: border-box; }
 .tm-mt-15 { margin-top: 15px; }
 .tm-mt-35 { margin-top: 35px; }
 .tm-mb-0 { margin-bottom: 0; }
-.tm-mb-15 { margin-bottom: 15px;text-align: justify;}
+.tm-mb-15 { margin-bottom: 15px;}
 .tm-mb-16 { margin-bottom: 15px; text-align: center;}
 .tm-mb-30 { margin-bottom: 30px; }
 .tm-mb-40 { margin-bottom: 40px; }
@@ -221,7 +221,7 @@ a {
 
 .tm-col-6 {
     flex: 0 0 50%;
-    text-align: justify; 
+    
 }
 
 .tm-intro-pad {
