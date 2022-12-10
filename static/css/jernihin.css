@@ -1,10 +1,14 @@
-html { overflow-x: hidden; }
+html { overflow-x: hidden; box-sizing: border-box; }
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 19px;
     line-height: 1.8em;
     overflow-x: hidden;
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 p, ol, span, em, a, address { color: #848586; }
@@ -153,12 +157,17 @@ a {
     max-width: 1254px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto 135px;
+    margin: 0 auto 90px;
+}
+
+.tm-container-predict {
+    width: 100%;
 }
 
 .tm-footer {
     display: flex;
     justify-content: space-between;
+    margin-top: auto;
     padding: 25px;
     font-size: 0.9em;
     background-color: #3282FF;
@@ -179,6 +188,7 @@ a {
 
 .tm-close {
     text-align: right;
+    margin-bottom: 12px;
 }
 
 .tm-close-popup {
@@ -207,7 +217,7 @@ a {
 /* text-based popup styling */
 .popup {
     position: relative;
-    padding: 12px 10px 35px;
+    padding: 10px 10px 35px;
     width: auto;
     max-width: 1200px;
     margin: 0 auto;
@@ -466,6 +476,10 @@ figure.effect-chico:hover p {
     margin-right: 40px;
 }
 
+.form-floating label {
+    padding: 12px 12px;
+}
+
 .form-control {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.2rem;
@@ -543,6 +557,10 @@ address {
     color: #FF8A8A;
     background-color: #FF3232;
 }
+
+/* .tm-predict form {
+    width: 1000px;
+} */
 
 @media (max-width: 1264px) {
     .tm-main-nav ul { max-width: 918px; }

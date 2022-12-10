@@ -3,7 +3,7 @@
 {% block title %}JERNIHINin | Prediksi Air{% endblock %}
 
 {% block content %}
-<div class="tm-container">
+<div class="tm-container tm-container-predict">
     <div class="tm-predict">
         <div class="tm-predict-result">
             {% if result == 5 %}
@@ -40,48 +40,63 @@
 
         <form id="contact-form" action="/result" method="POST">
             <div class="row">
-                <div class="col-md-6">
-                    <label for="fecal" class="form-label">Fecal</label>
-                    <input type="nunmber" name="fecal" class="form-control" placeholder="Fecal" onkeypress="return isNumber(event)" required>
+                <div class="col-md-6 mb-3">
+                    <div class="form-floating">
+                        <input type="nunmber" name="fecal" class="form-control" id="fecal" placeholder="WQI Fecal" onkeypress="return isNumber(event)" required>
+                        <label for="fecal" class="form-label">WQI Fecal</label>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <label for="oxygen" class="form-label">Oxygen</label>
-                    <input type="nunmber" name="oxygen" class="form-control" placeholder="Oxygen" onkeypress="return isNumber(event)" required>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <label for="ph" class="form-label">pH</label>
-                    <input type="nunmber" name="ph" class="form-control" placeholder="pH" onkeypress="return isNumber(event)" required>
-                </div>
-                <div class="col-md-6">
-                    <label for="tot_sediment" class="form-label">Total Sediment</label>
-                    <input type="nunmber" name="tot_sediment" class="form-control" placeholder="Total Sediment" onkeypress="return isNumber(event)" required>
+                <div class="col-md-6 mb-3">
+                    <div class="form-floating">
+                        <input type="nunmber" name="oxygen" class="form-control" id="oxygen" placeholder="WQI Oxygen" onkeypress="return isNumber(event)" required>
+                        <label for="oxygen" class="form-label">WQI Oxygen</label>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
-                    <label for="temp" class="form-label">Temperature</label>
-                    <input type="nunmber" name="temp" class="form-control" placeholder="Temperature" onkeypress="return isNumber(event)" required>
+                <div class="col-md-6 mb-3">
+                    <div class="form-floating">
+                        <input type="nunmber" name="ph" class="form-control" id="ph" placeholder="WQI pH" onkeypress="return isNumber(event)" required>
+                        <label for="ph" class="form-label">WQI pH</label>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <label for="nitrogen" class="form-label">Nitrogen</label>
-                    <input type="nunmber" name="nitrogen" class="form-control" placeholder="Nitrogen" onkeypress="return isNumber(event)" required>
+                <div class="col-md-6 mb-3">
+                    <div class="form-floating">
+                        <input type="nunmber" name="tot_sediment" class="form-control" id="tot_sediment" placeholder="WQI Total Sediment" onkeypress="return isNumber(event)" required>
+                        <label for="tot_sediment" class="form-label">WQI Total Sediment</label>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
-                    <label for="phosphorus" class="form-label">Phosphorus</label>
-                    <input type="nunmber" name="phosphorus" class="form-control" placeholder="Phosphorus" onkeypress="return isNumber(event)" required>
+                <div class="col-md-6 mb-3">
+                    <div class="form-floating">
+                        <input type="nunmber" name="temp" class="form-control"  id="temp" placeholder="WQI Temperature" onkeypress="return isNumber(event)" required>
+                        <label for="temp" class="form-label">WQI Temperature</label>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <label for="turbidity" class="form-label">Turbidity</label>
-                    <input type="nunmber" name="turbidity" class="form-control" placeholder="Turbidity" onkeypress="return isNumber(event)" required>
+                <div class="col-md-6 mb-3">
+                    <div class="form-floating">
+                        <input type="nunmber" name="nitrogen" class="form-control" id="nitrogen" placeholder="WQI Nitrogen" onkeypress="return isNumber(event)" required>
+                        <label for="nitrogen" class="form-label">WQI Nitrogen</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="form-floating">
+                        <input type="nunmber" name="phosphorus" class="form-control" id="phosphorus" placeholder="WQI Phosphorus" onkeypress="return isNumber(event)" required>
+                        <label for="phosphorus" class="form-label">WQI Phosphorus</label>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="form-floating">
+                        <input type="nunmber" name="turbidity" class="form-control" id="turbidity" placeholder="WQI Turbidity" onkeypress="return isNumber(event)" required>
+                        <label for="turbidity" class="form-label">WQI Turbidity</label>
+                    </div>
                 </div>
             </div>
             
             <div class="form-group">
-                <br>
                 <button type="reset" class="tm-btn btn-red">Reset</button>
                 <button type="submit" class="tm-btn btn-blue tm-ml-10">Prediksi</button>
             </div>
