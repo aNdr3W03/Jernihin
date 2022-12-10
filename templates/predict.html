@@ -30,6 +30,10 @@
             <p>Your water quality is <span class="red">Poor</span></p>
             <p class="tm-predict-desc">You cannot drink your water</p>
             {% endif %}
+
+            {% if result %}
+            <a href="/predict" class="tm-btn btn-blue tm-mt-35">Prediksi Ulang</a>
+            {% endif%}
         </div>
         
         <div class="tm-close">
