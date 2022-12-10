@@ -6,23 +6,23 @@ Click here to view <a href="https://jernihin.up.railway.app" title="Jernihin" ta
 
 # Table of Content
 
-1. [Jernihin](#jernihin)
-2. [Table of Content](#table-of-content)
-3. [About Jernihin](#about-jernihin)
-   1. [Background](#background)
-   2. [Goal & Aim](#goal--aim)
-   3. [Installation & Deployment](#installation--deployment)
-      1. [Project Installation to Personal Virtual Environment](#project-installation-to-personal-virtual-environment)
-      2. [Deploy Machine Learning Model with Flask on Railway](#deploy-machine-learning-model-with-flask-on-railway)
-   4. [How Jernihin Work - Water Quality Classification](#how-jernihin-work---water-quality-classification)
-   5. [Plans & Realization](#plans--realization)
-   6. [Repository & Branch](#repository--branch)
-   7. [Bibliography](#bibliography)
-      1. [Dataset](#a-dataset)
-      2. [Resources](#b-resources)
-      3. [Academic Papers](#c-academic-papers)
-      4. [References](#d-references)
-   9. [Developers](#developers)
+- [Jernihin](#jernihin)
+- [Table of Content](#table-of-content)
+- [About Jernihin](#about-jernihin)
+  - [Background](#background)
+  - [Goal \& Aim](#goal--aim)
+  - [Installation \& Deployment](#installation--deployment)
+    - [Project Installation to Personal Virtual Environment](#project-installation-to-personal-virtual-environment)
+    - [Deploy Machine Learning Model with Flask on Railway](#deploy-machine-learning-model-with-flask-on-railway)
+  - [How Jernihin Work - Water Quality Classification](#how-jernihin-work---water-quality-classification)
+  - [Plans \& Realization](#plans--realization)
+  - [Repository \& Branch](#repository--branch)
+  - [Bibliography](#bibliography)
+    - [A. Dataset](#a-dataset)
+    - [B. Resources](#b-resources)
+    - [C. Academic Papers](#c-academic-papers)
+    - [D. References](#d-references)
+  - [Developers](#developers)
 
 <br>
 
@@ -34,7 +34,7 @@ Click here to view <a href="https://jernihin.up.railway.app" title="Jernihin" ta
 
 ## Background
 
-A natural resource that has great potential for living things and continues to increase every year is water. According to the Data on Sustainable Development Goals (SDGs), Indonesia's water quality index for 2020 is 53.53, an increase from the previous year [[1]](#c-academic-paper-link "Sistem Prediksi Kualitas Air Yang Dapat Dikonsumsi Dengan Menerapkan Algoritma K-Nearest Neighbor"). Water measurements can be seen from chemical variables such as pH value, turbidity, phosphorus, nitrogen, oxygen, and others which play an important role in determining the quality of water. To find out the quality of the water needs to be monitored regularly. [[2]](#c-academic-paper-link "Analisis Kualitas Air pada Jalur Distribusi Air Bersih di Gedung Baru Fakultas Ekonomi dan Manajemen Institut Pertanian Bogor")
+A natural resource that has great potential for living things and continues to increase every year is water. According to the Data on Sustainable Development Goals (SDGs), Indonesia's water quality index for 2020 is 53.53, an increase from the previous year [[1]](#c-academic-paper-link "Sistem Prediksi Kualitas Air Yang Dapat Dikonsumsi Dengan Menerapkan Algoritma K-Nearest Neighbor"). Water measurements can be seen from chemical variables such as pH value, turbidity, phosphorus, nitrogen, oxygen, and others which play an important role in determining the quality of water. To find out the quality of the water needs to be monitored regularly [[2]](#c-academic-paper-link "Analisis Kualitas Air pada Jalur Distribusi Air Bersih di Gedung Baru Fakultas Ekonomi dan Manajemen Institut Pertanian Bogor").
 
 One of the efforts to assist the water resources management strategy is to create a system that can monitor the quality of water content. Based on the problems above, we decided to build a website application using deep learning methods to predict water quality from several variables. This application is expected to provide another alternative in the management and monitoring of water quality.
 
