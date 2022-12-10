@@ -47,16 +47,11 @@ h1 { font-size: 3rem; }
 em { display: block; }
 div { box-sizing: border-box; }
 .tm-mt-0 { margin-top: 0; }
-.tm-mt-15 { margin-top: 15px; }
 .tm-mt-35 { margin-top: 35px; }
 .tm-mb-0 { margin-bottom: 0; }
 .tm-mb-15 { margin-bottom: 15px; }
 .tm-mb-20 { margin-bottom: 20px; }
 .tm-mb-30 { margin-bottom: 30px; }
-.tm-mb-40 { margin-bottom: 40px; }
-.tm-mb-60 { margin-bottom: 50px; }
-.tm-mb-50 { margin-bottom: 50px; }
-.tm-mb-80 { margin-bottom: 80px; }
 .tm-ml-10 { margin-left: 10px; }
 .tm-text-center { text-align: center; }
 .tm-color-primary { color: #3282FF; }
@@ -66,7 +61,6 @@ div { box-sizing: border-box; }
 .tm-bg-white { background-color: #FFF; border-radius: 0 12px 12px; }
 .tm-bg-gray { background-color: #F1F2F3; }
 .tm-page-title { font-size: 30px; font-weight: bold; }
-blockquote { margin: 0 0 30px 10px; }
 img { max-width: 100%; }
 
 body, ul {
