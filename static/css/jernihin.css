@@ -25,17 +25,9 @@ a:hover, a.active { color: #3282FF; }
     border-radius: 10px;
 }
 
-button.tm-btn {
-    padding: 15px 40px;
-}
-
-.btn-blue {
-    background-color: #3282FF;
-}
-
-.btn-red {
-    background-color: #FF3232;
-}
+button.tm-btn { padding: 15px 40px; }
+.btn-blue { background-color: #3282FF; }
+.btn-red { background-color: #FF3232; }
 
 .btn-blue:hover {
     color: white;
@@ -54,8 +46,7 @@ div { box-sizing: border-box; }
 .tm-mt-15 { margin-top: 15px; }
 .tm-mt-35 { margin-top: 35px; }
 .tm-mb-0 { margin-bottom: 0; }
-.tm-mb-15 { margin-bottom: 15px;}
-.tm-mb-16 { margin-bottom: 15px; text-align: center;}
+.tm-mb-15 { margin-bottom: 15px; }
 .tm-mb-30 { margin-bottom: 30px; }
 .tm-mb-40 { margin-bottom: 40px; }
 .tm-mb-60 { margin-bottom: 50px; }
@@ -83,17 +74,9 @@ a {
     transition: all 0.3s ease;
 }
 
-.tm-site-header {
-    padding: 20px 5px 20px;
-}
-
-.tm-title {
-    font-weight: bold;
-}
-
-.tm-tagline {
-    font-size: 1.5rem;
-}
+.tm-site-header { padding: 20px 5px 20px; }
+.tm-title { font-weight: bold; }
+.tm-tagline { font-size: 1.5rem; }
 
 .navbar {
     align-items: center;
@@ -215,26 +198,11 @@ a {
     margin-right: 10px;
 }
 
-.tm-row {
-    display: flex;
-}
-
-.tm-col-6 {
-    flex: 0 0 50%;
-    
-}
-
-.tm-intro-pad {
-    padding: 40px 55px 50px;
-}
-
-.tm-intro-col-l {
-    padding-right: 20px;
-}
-
-.tm-intro-col-r {
-    padding-left: 20px;
-}
+.tm-row { display: flex; }
+.tm-col-6 { flex: 0 0 50%; }
+.tm-intro-pad { padding: 40px 55px 50px; }
+.tm-intro-col-l { padding-right: 20px; }
+.tm-intro-col-r { padding-left: 20px; }
 
 /* text-based popup styling */
 .popup {
@@ -577,35 +545,16 @@ address {
 }
 
 @media (max-width: 1264px) {
-    .tm-main-nav ul {
-        max-width: 918px;
-    }
+    .tm-main-nav ul { max-width: 918px; }
 }
 
 @media (max-width: 1214px) {
-    .tm-intro-pad {
-        padding: 20px 30px 20px;
-    }
-    
-    .popup {
-        max-width: 900px;
-    }
-
-    .tm-gallery {
-        flex: 0 0 53.5%;
-    }
-    
-    .tm-gallery-right {
-        flex: 0 0 37%;
-    }
-
-    .tm-about-left {
-        flex: 0 0 33%;
-    }
-
-    .tm-contact-col-r {
-        flex: 0 0 48%;
-    }
+    .tm-intro-pad { padding: 20px 30px 20px; }
+    .popup { max-width: 900px; }
+    .tm-gallery { flex: 0 0 53.5%; }
+    .tm-gallery-right { flex: 0 0 37%; }
+    .tm-about-left { flex: 0 0 33%; }
+    .tm-contact-col-r { flex: 0 0 48%; }
 }
 
 @media (max-width: 1140px) {
@@ -616,9 +565,7 @@ address {
 }
 
 @media (max-width: 1020px) {
-    .tm-main-nav ul {
-        max-width: 612px;
-    }
+    .tm-main-nav ul { max-width: 612px; }
 }
 
 @media (max-width: 940px) {
@@ -629,43 +576,20 @@ address {
 }
 
 @media (max-width: 912px) {
-    .popup {
-        max-width: 600px;
-    }
+    .popup { max-width: 600px; }
+    .tm-gallery { flex: 0 0 38.8%; }
+    .tm-gallery-right { flex: 0 0 47.5%; }
+    .tm-gallery-links { margin-left: 0px; }
+    .tm-content-row { flex-direction: column; }
 
-    .tm-gallery {
-        flex: 0 0 38.8%;
-    }
-    
-    .tm-gallery-right {
-        flex: 0 0 47.5%;
-    }
-
-    .tm-gallery-links {
-        margin-left: 0px;
-    }
-
-    .tm-content-row {
-        flex-direction: column;
-    }
-
+    .tm-intro-col-l { padding-right: 0px; }
+    .tm-intro-col-r { padding-left: 0px; }
     .tm-intro-img {
         max-width: 38%;
         height: 38%;
     }
-
-    .tm-intro-col-l {
-        padding-right: 0px;
-    }
     
-    .tm-intro-col-r {
-        padding-left: 0px;
-    }
-
-    .tm-contact-row {
-        flex-direction: column;
-    }
-
+    .tm-contact-row { flex-direction: column; }
     .tm-contact-col {
         flex: 0 0 100%;
         max-width: 100%;
@@ -680,20 +604,12 @@ address {
         margin-bottom: 50px;
     }
 
-    .tm-about-row {
-        flex-direction: column;
-    }
-
-    .tm-about-col {
-        flex: 0 0 100%;
-    }
+    .tm-about-row { flex-direction: column; }
+    .tm-about-col { flex: 0 0 100%; }
 }
 
 @media (max-width: 850px) {
-    .tm-contact-row {
-        flex-direction: column;
-    }
-
+    .tm-contact-row { flex-direction: column; }
     .tm-contact-col {
         flex: 0 0 100%;
         max-width: 100%;
@@ -710,14 +626,8 @@ address {
 }
 
 @media (max-width: 805px) {
-    .tm-gallery-row {
-        flex-direction: column-reverse;
-    }
-
-    .tm-gallery {
-        flex: 0 0 100%;
-    }
-
+    .tm-gallery-row { flex-direction: column-reverse; }
+    .tm-gallery { flex: 0 0 100%; }
     .tm-gallery-right {
         flex: 0 0 100%;
         margin-left: 20px;
@@ -738,15 +648,11 @@ address {
         margin-left: 0;
     }
 
-    .tm-gallery-links li {
-        margin-right: 20px;
-    }
+    .tm-gallery-links li { margin-right: 20px; }
 }
 
 @media (max-width: 776px) {
-    .tm-main-nav ul {
-        max-width: 306px;
-    }
+    .tm-main-nav ul { max-width: 306px; }
 }
 
 @media (max-width: 670px) {
@@ -757,10 +663,7 @@ address {
 }
 
 @media (max-width: 650px) {
-    .tm-intro-row {
-        flex-direction: column;
-    }
-
+    .tm-intro-row { flex-direction: column; }
     .tm-intro-img {
         max-width: 100%;
         max-height: none;
@@ -775,24 +678,16 @@ address {
 }
 
 @media (max-width: 532px) {
-    .tm-main-nav ul {
-        max-width: 306px;
-    }
+    .tm-main-nav ul { max-width: 306px; }
 }
 
 @media (max-width: 470px) {
-    .tm-site-header {
-        padding: 0px 5px 0px ;
-    }
-    
+    .tm-site-header { padding: 0px 5px 0px; }
+    .navbar-container { display: block; }
     .navbar {
         text-align: center;
         display: block;
         padding: 10px 15px;
-    }
-
-    .navbar-container {
-        display: block;
     }
 
     .navbar-left img {
@@ -800,33 +695,14 @@ address {
         margin: 0;
     }
     
-    .tm-title {
-        font-size: 28px;
-    }
-
-    .tm-tagline {
-        font-size: 22px;
-    }
-
-    .tm-predict-title {
-        line-height: 1.7;
-    }
+    .tm-title { font-size: 28px; }
+    .tm-tagline { font-size: 22px; }
+    .tm-predict-title { line-height: 1.7; }
 }
 
 @media (max-width: 412px) {
-    .tm-btn {
-        width: 100%;
-    }
-
-    .btn-red {
-        margin-bottom: 10px;
-    }
-
-    .btn-blue {
-        margin-left: 0;
-    }
-
-    .tm-footer {
-        text-align: center;
-    }
+    .tm-btn { width: 100%; }
+    .btn-red { margin-bottom: 10px; }
+    .btn-blue { margin-left: 0; }
+    .tm-footer { text-align: center; }
 }
