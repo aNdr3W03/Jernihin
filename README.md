@@ -2,6 +2,10 @@
 
 Click here to view <a href="https://jernihin.up.railway.app" title="Jernihin" target="_blank"><b>Jernihin</b></a>.
 
+<a href="https://jernihin.up.railway.app" title="Jernihin Homepage" target="_blank">
+  <img src="https://user-images.githubusercontent.com/77439245/206903737-15a2b3f3-e885-4909-a8c7-38eeb2edd154.png" alt="Jernihin Homepage">
+</a>
+
 <br>
 
 # Table of Content
@@ -22,6 +26,8 @@ Click here to view <a href="https://jernihin.up.railway.app" title="Jernihin" ta
     - [B. Resources](#b-resources)
     - [C. Academic Papers](#c-academic-papers)
     - [D. References](#d-references)
+  - [Presentation](#presentation)
+  - [Demo Video](#demo-video)
   - [Developers](#developers)
 
 <br>
@@ -239,6 +245,22 @@ In working on this project, several project or project resources are needed reso
 - [5] A. Sridhar, "*How to Deploy Machine Learning Model using Flask (Iris Dataset) | Python.*" <a href="https://youtube.com" target="_blank">youtube.com</a>. <a href="https://youtu.be/2LqrfEzuIMk" target="_blank">https://youtu.be/2LqrfEzuIMk</a> (accessed November 23, 2022).
 
 - [6] K. Naik, "*Deploy Machine Learning Model using Flask.*" <a href="https://youtube.com" target="_blank">youtube.com</a>. <a href="https://youtu.be/UbCWoMf80PY" target="_blank">https://youtu.be/UbCWoMf80PY</a> (accessed November 23, 2022).
+
+<br>
+
+## Presentation
+
+<a href="https://youtu.be/6C62ByQk4Io" title="Jernihin Presentation Video" target="_blank">
+  <img src="https://user-images.githubusercontent.com/77439245/206904492-d995616d-9741-4aca-8582-e9a091bd7c6c.png" alt="Jernihin Presentation Video" style="width: 500px">
+</a>
+
+<br>
+
+## Demo Video
+
+<a href="https://youtu.be/1wf-pGftGB0" title="Jernihin Demo Video" target="_blank">
+  <img src="https://user-images.githubusercontent.com/77439245/206904471-bce8aaaa-91f4-43a4-8030-f4cb558d7e41.png" alt="Jernihin Demo Video" style="width: 500px">
+</a>
 
 <br>
 
