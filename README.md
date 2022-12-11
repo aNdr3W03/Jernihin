@@ -2,6 +2,10 @@
 
 Click here to view <a href="https://jernihin.up.railway.app" title="Jernihin" target="_blank"><b>Jernihin</b></a>.
 
+<a href="https://jernihin.up.railway.app" title="Jernihin Homepage" target="_blank">
+  <img src="https://user-images.githubusercontent.com/77439245/206903737-15a2b3f3-e885-4909-a8c7-38eeb2edd154.png" alt="Jernihin Homepage">
+</a>
+
 <br>
 
 # Table of Content
