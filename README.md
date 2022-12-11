@@ -26,7 +26,7 @@ Click here to view <a href="https://jernihin.up.railway.app" title="Jernihin" ta
     - [B. Resources](#b-resources)
     - [C. Academic Papers](#c-academic-papers)
     - [D. References](#d-references)
-  - [Presentation](#presentaion)
+  - [Presentation](#presentation)
   - [Demo Video](#demo-video)
   - [Developers](#developers)
 
