@@ -1,10 +1,15 @@
 import os
-import pickle
 import numpy as np
+from keras.models import load_model
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
-model = pickle.load(open('model/model.pkl', 'rb'))
+model = load_model('model/saved_model.h5', compile=False)
+model.compile(
+    optimizer = 'adam',
+    loss      = 'categorical_crossentropy',
+    metrics   = ['accuracy']
+)
 
 @app.route('/')
 def index():
