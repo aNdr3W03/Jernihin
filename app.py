@@ -1,10 +1,15 @@
 import os
-import pickle
 import numpy as np
+from keras.models import load_model
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
-model = pickle.load(open('model/model.pkl', 'rb'))
+model = load_model('model/model.h5', compile=False)
+model.compile(
+    optimizer = 'adam',
+    loss      = 'categorical_crossentropy',
+    metrics   = ['accuracy']
+)
 
 @app.route('/')
 def index():
@@ -17,10 +22,11 @@ def predict():
 @app.route('/result', methods=['GET', 'POST'])
 def result():
     features = [float(x) for x in request.form.values()]
-    final_features = [np.array(features)]
-    prediction = model.predict(final_features)
+    final_features = np.array([features])
 
-    return render_template('predict.html', result=prediction[0])
+    prediction = np.argmax(model.predict(final_features))
+
+    return render_template('predict.html', result=prediction)
 
 if __name__ == '__main__':
     app.run(debug=True, port=os.getenv("PORT", default=5000))
