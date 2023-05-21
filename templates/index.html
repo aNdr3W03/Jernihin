@@ -6,7 +6,7 @@
 <!-- Video Banner -->
 <div id="tm-video-container">
     <video autoplay muted loop id="tm-video">
-        <source src="{{url_for('static', filename='video/Background2.mp4')}}" type="video/mp4">
+        <source src="{{url_for('static', filename='video/Background1.mp4')}}" type="video/mp4">
     </video>  
     <i id="tm-video-control-button" class="fas fa-pause"></i>
 </div>
@@ -54,28 +54,28 @@
             </a>
         </div>
         <div class="tm-row tm-intro-row">
-            <img src="{{url_for('static', filename='img/intro')}}"  alt="Intro" class="tm-intro-img">
+            <img src="{{url_for('static', filename='img/intro.jpg')}}" alt="Intro" class="tm-intro-img">
             <div class="tm-col tm-bg-white tm-intro-pad">
-                <h2 class="tm-color-primary tm-page-title tm-mb-16">Introduction Waterify - App </h2>
+                <h2 class="tm-color-primary tm-page-title tm-mb-15">What is Waterify?</h2>
                 <div class="tm-row tm-content-row">
                     <div class="tm-col-6 tm-intro-col-l">
                         <p>
-                            Kualitas air memiliki pengaruh langsung terhadap kesehatan manusia dan lingkungan. Air digunakan untuk berbagai keperluan, termasuk minum, pertanian, dan keperluan industri. Secara   garis   besar   kualitas   air diklasifikasikan  menjadi  3  kategori  yaitu  fisik,  kimia  biologi,  dan  setiap  kategori  memiliki sejumlah parameter. alah satu pendekatan untuk penentuan kualitas air sungai adalah indeks kualitas air, yang terbukti menjadi metode yang  efisien  dan  berguna  untuk  menilai  kualitas  air.
+                            Air yang aman dan tersedia sangat penting untuk kesehatan masyarakat, baik itu digunakan untuk minum, keperluan rumah tangga, produksi makanan atau tujuan rekreasi.
                         </p>
                         <p>
-                            Indeks kualitas air (WQI/<i>Water Quality Index</i>) merupakan indikasi penting untuk pengelolaan air yang tepat. Kualitas air ditentukan oleh fitur-fitur seperti <i>oxygen</i> (DO), total <i>sediment</i>, <i>Fecal</i>, <i>Temperaure</i>, pH,<i>Phosphorus</i>, <i>Turbidity</i> dan <i>Nitrogen</i>.
+                            Indeks kualitas air (WQI/<i>Water Quality Index</i>) merupakan alat ukur yang penting untuk menentukan kualitas air sebagai indeks yang mencerminkan pengaruh gabungan dari berbagai parameter kualitas air yang dipertimbangkan dan diambil untuk perhitungan indeks kualitas air.
                         </p>
                     </div>
                     <div class="tm-col-6 tm-intro-col-r">
                         <p>
-                        Dengan demikian, merancang model yang dapat memprediksi kualitas air saat ini sangat penting untuk mengendalikan pencemaran air, serta untuk mengingatkan pengguna jika terjadi deteksi kualitas yang buruk. Termotivasi oleh alasan tersebut, dalam hal ini kami memanfaatkan algoritma <i>Machine Learning</i> untuk mengembangkan model yang mampu memprediksi indeks kualitas air dan kemudian kelas kualitas air.
+                            Jadi, kami mengambil beberapa inspirasi untuk menggunakan <i>dataset</i> indeks kualitas air (WQI) untuk memahami jenis air minum yang aman dengan menerapkan <i>machine learning</i> untuk membedakan antara air minum dan air yang tidak layak untuk diminum.
                         </p>
                         <p>
-                            Waterify App adalah aplikasi berbasis <i>website</i> untuk mengembangkan metode peramalan kualitas air yang andal sehingga dapat menentukkan kualitas air apakah aman untuk dikonsumsi atau tidak layak untuk dikonsumsi dan membantu dalam memilih teknik pengolahan air yang sesuai untuk mengatasi masalah kontaminasi.
+                            Waterify adalah aplikasi berbasis <i>website</i> untuk memprediksi tingkat kualitas air yang dapat memberikan hasil prediksi air tersebut apakah aman untuk dikonsumsi atau tidak layak untuk dikonsumsi.
                         </p>
                         <div class="tm-text-center">
                             <a href="#" class="tm-btn btn-blue mfp-prevent-close tm-btn-next">
-                                Let's Predict
+                                Coba Prediksi
                             </a>
                         </div>
                     </div>
@@ -91,7 +91,7 @@
                 <i class="fas fa-times"></i>
             </a>
         </div>
-        <h2 class="tm-color-primary tm-about-col tm-mb-20 tm-page-title"></h2>
+        <h2 class="tm-color-primary tm-about-col tm-mb-20 tm-page-title">Apa itu <i>Water Quality Index</i>?</h2>
         <div class="tm-row tm-about-row">
             <div class="tm-col tm-about-col tm-about-left">
                 <img src="{{url_for('static', filename='img/predict.jpg')}}" alt="Prediction" class="tm-mb-15">
@@ -105,34 +105,21 @@
             </div>
             <div class="tm-col tm-about-col">
                 <p class="tm-mb-15 tm-text-center tm-color-primary">
-                    <b>Pentingnya mengetahui indeks kualitas air </b>
+                    <b>Pentingnya Pemantauan Kualitas Air</b>
                 </p>
                 <ol class="tm-mb-15">
-                    <li><b>Kebutuhan Dasar makhluk hidup</b>
-                        <p>Air merupakan sumberdaya esensial bagi makhluk
-                            hidup, yaitu guna untuk memenuhi kebutuhan sehari-hari, kebutuhan
-                            pertanian, perikanan,maupun kebutuhan lainnya.</p>
+                    <li><b>Sebagai Kebutuhan Dasar Manusia</b>
+                        <p>Air adalah salah satu kebutuhan paling dasar untuk mendukung hidup manusia. Hal ini merefleksikan betapa pentingnya air dalam hidup manusia. Parameter untuk mengukur kualitas air baik secara fisik, kimia, atau bakteriologi harus sesuai dengan standarnya.</p>
                     </li>
-                    <li><b>Informasi Publik</b>
-                        <p>WQI memberikan informasi yang efektif tentang tingkat kemurnian dan pencemaran air.</p>
-                    </li>
-                    <li><b>Riset ilmiah</b>
-                        <p>
-                        WQI dapat digunakan untuk meminimalkan sejumlah besar data ke dalam proses yang memberikan wawasan tentang riset dan melakukan analisis terhadap banyak program lingkungan ini.
-                        </p>
-                    </li>
-                    <li><b>Trend analysis</b>
-                        <p>
-                            WQI dapat digunakan untuk informasi lingkungan, pada berbagai periode waktu, untuk mengevaluasi perubahan kualitas lingkungan yang terjadi selama periode tersebut.
-                        </p>
-
+                    <li><b>Kualitas yang aman untuk dikonsumsi</b>
+                        <p>Kualitas air yang aman dikonsumsi adalah kualitas air yang memenuhi kriteria baik Fisik (Temperatur, Warna, Sedimentasi); Kimiawi (Oksigen, pH, Salinitas, Nutrien); maupun Biologis (Bakteri, Alga, Fitoplankton).</p>
                     </li>
                 </ol>
                 <p class="tm-mb-15">
                     Mari pastikan kualitas air Anda sekarang!
                 </p>
                 <a href="/predict" class="tm-btn btn-blue mfp-prevent-close">
-                    Predict now!
+                    Prediksi Sekarang!
                 </a>
             </div>
         </div>
@@ -219,6 +206,9 @@
                             </a>
                         </li>
                     </ul>
+                    <p>
+                        Kami tim JERNIHin, mahasiswa semester 5 yang berasal dari Prodi Teknik Informatika Universitas Lampung (<a href="#" class="tm-gallery-link" data-filter="gilang">Gilang</a>), Prodi Informatika Universitas AMIKOM Purwokerto (<a href="#" class="tm-gallery-link" data-filter="ades">Ades</a>), dan Prodi Ilmu Komputer Universitas Sumatera Utara (<a href="#" class="tm-gallery-link" data-filter="andrew">Andrew</a> & <a href="#" class="tm-gallery-link" data-filter="cheliza">Chea</a>). Kami tergabung dalam Capstone Team C22-078 SIB Dicoding Cycle 3 yang berfokus pada Pengembangan Machine Learning dan Front-End Web Developer.
+                    </p>
                 </div>
                 <a href="#" class="tm-btn btn-blue mfp-prevent-close tm-btn-next">
                     Contact Us
@@ -258,7 +248,7 @@
                 <!-- Map -->
                 <div class="mapouter tm-mb-30">
                     <div class="gmap_canvas">
-                        <iframe width="80%" height="520" id="gmap_canvas"
+                        <iframe width="100%" height="520" id="gmap_canvas"
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2098.243952082923!2d107.63245264839983!3d-6.895763240062077!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb8bb411d2516aad6!2sDicoding%20Academy!5e0!3m2!1sid!2sid!4v1670045754042!5m2!1sid!2sid"
                             frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
                         </iframe>
