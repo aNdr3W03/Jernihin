@@ -89,34 +89,15 @@ a {
 
 .navbar-left img {
     width: 90px;
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
-nav.putih {
-    background-color: #fff;
-    display: flex;
-    justify-content: space-between;
-    margin-top: auto;
-    padding: 10px;
-    font-size: 0.9em;
-    opacity: 0.4;
-    filter: alpha(opacity=40);
-
-  }
-
 #tm-video-container {
-    max-height: 800px;
+    max-height: 400px;
     overflow: hidden;
     background-color: #333;
-    margin-bottom: 10px;
-    position:relative;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-    z-index: -2;
-    min-width: 100%;
-    min-height: 100%;
-    
+    margin-bottom: 90px;
+    position: relative;
 }
 
 #tm-video {
@@ -184,7 +165,7 @@ nav.putih {
     margin-top: auto;
     padding: 25px;
     font-size: 0.9em;
-    background-color: #5a8fe5;
+    background-color: #3282FF;
 }
 
 .tm-footer span {
