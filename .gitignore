@@ -5,6 +5,7 @@ __pycache__/
 .python-version
 .env
 .venv
+.vscode/
 env/
 venv/
 ENV/

@@ -1,6 +1,6 @@
 import os
 import numpy as np
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
@@ -25,6 +25,9 @@ def result():
     final_features = np.array([features])
 
     prediction = np.argmax(model.predict(final_features))
+    print(f'features = {features}')
+    print(f'final_features = {final_features}')
+    print(f'prediction = {prediction}')
 
     return render_template('predict.html', result=prediction)
 
